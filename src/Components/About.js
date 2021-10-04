@@ -6,8 +6,9 @@ import {
     Grid,
     Header,
     Image,
-    Segment
-  } from "semantic-ui-react"
+    Segment,
+    Divider,
+} from "semantic-ui-react"
 
 const About = () => {
     const slickSettings = {
@@ -19,7 +20,7 @@ const About = () => {
     return (
         <div>
         <Slider {...slickSettings} className="slide">
-          <Segment inverted vertical textAlign="center">
+          <Segment inverted vertical textAlign="center" id="home_segment1">
             
             <Container text className="active">
               <Header inverted as="h1">
@@ -36,7 +37,7 @@ const About = () => {
               </Button>
             </Container>
           </Segment>
-          <Segment inverted vertical textAlign="center">
+          <Segment inverted vertical textAlign="center" id="home_segment2">
             <Container text className="active">
               <Header inverted as="h1">
                 Another example headline.
@@ -51,7 +52,7 @@ const About = () => {
               </Button>
             </Container>
           </Segment>
-          <Segment inverted vertical textAlign="center">
+          <Segment inverted vertical textAlign="center" id="home_segment3">
             <Container text className="active">
               <Header inverted as="h1">
                 One more for good measure
@@ -68,58 +69,29 @@ const About = () => {
           </Segment>
         </Slider>
         <Container>
-          <Segment vertical>
-            <Grid container stackable textAlign="center" columns={3}>
-              <Grid.Column>
-                <Image
-                  centered
-                  circular
-                  size="small"
-                  src="/images/square-image.png"
-                />
-                <Header as="h1">Heading</Header>
-                <p>
-                  Donec sed odio dui. Etiam porta sem malesuada magna mollis
-                  euismod. Nullam id dolor id nibh ultricies vehicula ut id
-                  elit. Morbi leo risus, porta ac consectetur ac, vestibulum at
-                  eros. Praesent commodo cursus magna.
-                </p>
-                <Button basic>View details &raquo;</Button>
-              </Grid.Column>
-              <Grid.Column>
-                <Image
-                  centered
-                  circular
-                  size="small"
-                  src="/images/square-image.png"
-                />
-                <Header as="h1">Heading</Header>
-                <p>
-                  Donec sed odio dui. Etiam porta sem malesuada magna mollis
-                  euismod. Nullam id dolor id nibh ultricies vehicula ut id
-                  elit. Morbi leo risus, porta ac consectetur ac, vestibulum at
-                  eros. Praesent commodo cursus magna.
-                </p>
-                <Button basic>View details &raquo;</Button>
-              </Grid.Column>
-              <Grid.Column>
-                <Image
-                  centered
-                  circular
-                  size="small"
-                  src="/images/square-image.png"
-                />
-                <Header as="h1">Heading</Header>
-                <p>
-                  Donec sed odio dui. Etiam porta sem malesuada magna mollis
-                  euismod. Nullam id dolor id nibh ultricies vehicula ut id
-                  elit. Morbi leo risus, porta ac consectetur ac, vestibulum at
-                  eros. Praesent commodo cursus magna.
-                </p>
-                <Button basic>View details &raquo;</Button>
-              </Grid.Column>
-            </Grid>
-          </Segment>
+          
+
+          <Divider horizontal>
+            <Header as='h1'>
+              Overview
+            </Header>
+          </Divider>
+          <p>Artificial Intelligent Internet of Things (AIoT) is an emerging technology that combines artificial intelligence (AI) and Internet of Things (IoT). It is one of the most valued scientific and technological terms today. In recent years, with breakthroughs in computer storage space and computing performance, coupled with big data analysis, inference, and learning, AI has become the focus and is widely used in many fields, such as finance, manufacturing, retail, and medical industries. According to IDC's Worldwide Artificial Intelligence Spending Guide report, the total global AI spending will increase more than twice in the next four years, from $50.1 billion in 2020 to more than $110 billion in 2024. According to PWC’s report, by 2030, the global AI technology output value will be about 6.6 trillion U.S. dollars, and AI applications will be 9.1 trillion U.S. dollars, which will bring 14% growth to global GDP. The potential for business opportunities is promising. On the other hand, IoT leads people from the traditional "human-to-human" and "human-to-machine" communication and interaction methods to the intelligent "machine-to-machine", which connects various digital devices to the Internet and transmits all kinds of information sensed to each other. Through machine learning and data mining technology, we can further discover valuable knowledge and ubiquitously provide various services in people's lives. According to the research of McKinsey Management Consultants, the global application output value of IoT will reach 11.1 trillion U.S. dollars in 2025. IDC also assesses that the data volume of IoT devices from 2018 to 2025 will grow at an average annual growth rate of 28.7% and reach 79.4ZB in 2025. For the applications of AIoT, Frost & Sullivan, a world-renowned business consulting firm, estimates that the global output value of smart cities will reach a market size of 2 trillion U.S. dollars by 2025. </p>
+          <p>In recent years, Taiwan has gradually matured in IC chip development, wireless transmission, and data storage technologies. Therefore, industries, government administration, and academia have begun to attach importance to the value of integrating AIoT with interdisciplinary fields. The development of AIoT technology not only has high research value in academics but also plays a pivotal role in the progress of various fields in Taiwan, such as technology industries, government efficiency, biomedical science and technology, health management, transportation construction, agricultural technology, as well as cultural and creative industries, and the upgrading of international competitiveness. Therefore, there is an urgent need for AIoT talents and technologies. </p>
+          <Divider horizontal>
+            <Header as='h1'>
+            The TIGP Program on AIoT
+            </Header>
+          </Divider>
+          <p>The TIGP on Artificial Intelligence of Things (AIoT) is a program established jointly by National Taiwan University (NTU) and Academia Sinica. Artificial Intelligence of Things is a new important application and technology that have been rapidly developing in recent years. The TIGP AIoT program can cultivate Taiwanese and international talents in related areas to the program, strengthen innovative potential, and enhance the level of academic research. NTU and Academia Sinica will co-play leading and supervisory roles, and provide research resources and equipment. Additionally, the participating scholars of these institutions will be jointly responsible for teaching activities, supervising research, and guiding international graduate students.</p>
+          <p>This TIGP program hopes to attract outstanding young domestic and international students. In the scope of AIoT, this program gives priority to computer science and engineering and takes biomedical science as a subsidiary to provide students with training across multiple fields. The curriculum contents will probe into various fields, including networking and communications, signal processing, embedded IoT systems, cloud computing, mobile edge computing, big data systems, machine learning, data mining, multivariate data analysis, business models, privacy and security, and multimedia that emphasized areas and combinations in computer science, electrical engineering, and communication.</p>
+          <p>In TIGP on Artificial Intelligence of Things, the cooperating university and institutes will provide the required laboratory equipment and instruments for teaching and research. With the equipment and varied expertise of the researchers from the cooperating institutions, this program can provide young students with an excellent educational opportunity to cultivate their research capabilities in interdisciplinary areas. This specific TIGP will focus on both theory and practice to provide students with a solid theoretical basis and technical capability to solve practical problems.</p>
+          <Divider horizontal>
+            <Header as='h1'>
+              Research Topics
+            </Header>
+          </Divider>
+
           <Segment vertical>
             <Grid stackable>
               <Grid.Column width={10}>
@@ -193,17 +165,6 @@ const About = () => {
               </Grid.Column>
               <Grid.Column width={6}>
                 <Image src="/images/square-image.png" />
-              </Grid.Column>
-            </Grid>
-          </Segment>
-          <Segment vertical>
-            <Grid columns={2}>
-              <Grid.Column>
-                &copy; 2017 Company, Inc. · <a href="#root">Privacy</a> ·{" "}
-                <a href="#root">Terms</a>
-              </Grid.Column>
-              <Grid.Column textAlign="right">
-                <a href="#root">Back to top</a>
               </Grid.Column>
             </Grid>
           </Segment>

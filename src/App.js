@@ -4,6 +4,8 @@ import "semantic-ui-css/semantic.min.css"
 import {
   Container,
   Menu,
+  Segment,
+  Grid,
 } from "semantic-ui-react";
 import "./App.css"
 
@@ -41,6 +43,19 @@ const App = () => {
                 <Route path="/admission" component={Admission}/>
                 <Route path="/contact" component={Contact}/>
         </Switch>
+        <Container>
+        <Segment vertical>
+            <Grid columns={2}>
+              <Grid.Column>
+                &copy; 2021 TIGP AIoT · <a href="#">Privacy</a> ·{" "}
+                Powered by <a href="https://unsplash.com/">Unsplash</a>
+              </Grid.Column>
+              <Grid.Column textAlign="right">
+                <a href="#">Back to Homepage</a>
+              </Grid.Column>
+            </Grid>
+          </Segment>
+        </Container>
         </HashRouter>
     </div>
   );
