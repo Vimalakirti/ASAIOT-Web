@@ -172,9 +172,10 @@ body {
   .slide .ui.segment p {
     font-size: 1.5rem;
   }
-
-  .ui.divider h1 {
+  .ui.divider {
     padding-top: 3rem;
+  }
+  .ui.divider h1 {
     font-size: 3rem;
   }
 

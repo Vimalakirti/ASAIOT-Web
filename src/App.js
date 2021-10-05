@@ -47,8 +47,8 @@ const App = () => {
         <Segment vertical>
             <Grid columns={2}>
               <Grid.Column>
-                &copy; 2021 TIGP AIoT · <a href="#">Privacy</a> ·{" "}
-                Powered by <a href="https://unsplash.com/">Unsplash</a>
+                &copy; 2021 TIGP AIoT · 
+                Powered by <a href="https://react.semantic-ui.com/">Semantic UI</a> and <a href="https://unsplash.com/">Unsplash</a>
               </Grid.Column>
               <Grid.Column textAlign="right">
                 <a href="#">Back to Homepage</a>

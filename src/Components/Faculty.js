@@ -21,12 +21,17 @@ const Faculty = () => {
                         Faculty in TIGP AIoT Program
                     </Header>
                     <p>
-                        The participating scholars comes from ??? institutions including Academia Sinica, NTU and ???
+                        The cooperating university and institutes include NTU and Academia Sinica
                     </p>
                     </Container>
                 </Segment>
             </Slider>
             <Container>
+                <Divider horizontal>
+                    <Header as='h1'>
+                    National Taiwan University
+                    </Header>
+                </Divider>
                 <Divider horizontal>
                     <Header as='h1'>
                     Institute of Information Science, Academia Sinica

@@ -13,6 +13,9 @@ const Course = () => {
                 <Segment inverted vertical id="course_segment1">
                 
                     <Container text className="active">
+                        <Header  as="h1">
+                            Course
+                        </Header>
                     </Container>
                 </Segment>
             </Slider>
