@@ -235,7 +235,7 @@ const Admission = () => {
           <List bulleted size='huge'>
             <List.Item>
             <List.Content>
-            On campus: details please visit our website at <a href='http://tigp.sinica.edu.tw/Accommodation.html'>http://tigp.sinica.edu.tw/Accommodation.html</a>
+            On-campus: details please visit our website at <a href='http://tigp.sinica.edu.tw/Accommodation.html'>http://tigp.sinica.edu.tw/Accommodation.html</a>
             </List.Content>
             </List.Item>
             <List.Item>

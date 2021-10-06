@@ -20,12 +20,51 @@ const Academic = () => {
                     <Header inverted as="h1">
                         Academic
                     </Header>
-                    <p>
-                        The participating scholars comes from ??? institutions including Academia Sinica, NTU and ???
-                    </p>
                     </Container>
                 </Segment>
             </Slider>
+            <Container>
+                <Divider horizontal>
+                    <Header as='h1'>
+                    Transfer Credits
+                    </Header>
+                </Divider>
+                <Divider horizontal>
+                    <Header as='h1'>
+                    Prerequisite Requirement
+                    </Header>
+                </Divider>
+                <Divider horizontal>
+                    <Header as='h1'>
+                    Outstanding Academic Performance
+                    </Header>
+                </Divider>
+                <Divider horizontal>
+                    <Header as='h1'>
+                    Degree Requirement
+                    </Header>
+                </Divider>
+                <Divider horizontal>
+                    <Header as='h1'>
+                    Qualifying Examination
+                    </Header>
+                </Divider>
+                <Divider horizontal>
+                    <Header as='h1'>
+                    Degree Examination
+                    </Header>
+                </Divider>
+                <Divider horizontal>
+                    <Header as='h1'>
+                    Progress Report
+                    </Header>
+                </Divider>
+                <Divider horizontal>
+                    <Header as='h1'>
+                    Degree Conferral
+                    </Header>
+                </Divider>
+            </Container>
         </div>
     )
 }

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import {HashRouter, Route, Switch, Link} from 'react-router-dom'
 import "semantic-ui-css/semantic.min.css"
 import {
@@ -47,11 +47,11 @@ const App = () => {
         <Segment vertical>
             <Grid columns={2}>
               <Grid.Column>
-                &copy; 2021 TIGP AIoT · 
+                &copy; 2021 TIGP AIoT · All rights reserved ·{" "}
                 Powered by <a href="https://react.semantic-ui.com/">Semantic UI</a> and <a href="https://unsplash.com/">Unsplash</a>
               </Grid.Column>
               <Grid.Column textAlign="right">
-                <a href="#">Back to Homepage</a>
+                <a href="/">Back to Homepage</a>
               </Grid.Column>
             </Grid>
           </Segment>

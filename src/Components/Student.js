@@ -23,6 +23,18 @@ const Student = () => {
                     </Container>
                 </Segment>
             </Slider>
+            <Container>
+                <Divider horizontal>
+                    <Header as='h1'>
+                    Thesis Advisor
+                    </Header>
+                </Divider>
+                <Divider horizontal>
+                    <Header as='h1'>
+                    Stipend Guideline
+                    </Header>
+                </Divider>
+            </Container>
         </div>
     )
 }

@@ -2,7 +2,8 @@ import React from 'react'
 import {
     Container,
     Header,
-    Segment
+    Segment,
+    Divider
 } from "semantic-ui-react"
 import Slider from 'react-slick'
 
@@ -19,6 +20,14 @@ const Course = () => {
                     </Container>
                 </Segment>
             </Slider>
+            <Container>
+                <Divider horizontal>
+                    <Header as='h1'>
+                    Oops! Under construction
+                    </Header>
+                </Divider>
+                
+            </Container>
         </div>
     )
 }
