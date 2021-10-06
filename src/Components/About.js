@@ -9,6 +9,7 @@ import {
     Segment,
     Divider,
 } from "semantic-ui-react"
+import logo from '../images/square-image.png'
 
 const About = () => {
     const slickSettings = {
@@ -97,14 +98,14 @@ const About = () => {
                 </p>
               </Grid.Column>
               <Grid.Column width={6}>
-                <Image src="/images/square-image.png" />
+                <Image src={logo} />
               </Grid.Column>
             </Grid>
           </Segment>
           <Segment vertical>
             <Grid stackable>
               <Grid.Column width={6}>
-                <Image src="/images/square-image.png" />
+                <Image src={logo} />
               </Grid.Column>
               <Grid.Column width={10}>
                 <Header as="h1">
@@ -127,14 +128,14 @@ const About = () => {
                 </p>
               </Grid.Column>
               <Grid.Column width={6}>
-                <Image src="/images/square-image.png" />
+                <Image src={logo} />
               </Grid.Column>
             </Grid>
           </Segment>
           <Segment vertical>
             <Grid stackable>
               <Grid.Column width={6}>
-                <Image src="/images/square-image.png" />
+                <Image src={logo} />
               </Grid.Column>
               <Grid.Column width={10}>
                 <Header as="h1">
@@ -158,7 +159,7 @@ const About = () => {
                 </p>
               </Grid.Column>
               <Grid.Column width={6}>
-                <Image src="/images/square-image.png" />
+                <Image src={logo} />
               </Grid.Column>
             </Grid>
           </Segment>
