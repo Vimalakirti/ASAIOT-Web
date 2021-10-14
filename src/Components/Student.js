@@ -29,20 +29,20 @@ const Student = () => {
                     Thesis Advisor
                     </Header>
                 </Divider>
-                <p>TODO</p>
-                <p>The TIGP on Social Networks and Human-Centered Computing cuts into social networks and human-centered computing mainly from the viewpoint of computer science and engineering, and is supplemented by social and behavioral science, to provide students in the program with interdisciplinary training.</p>
+                <p>(Copied from SNHCC currently)</p>
+                <p><font color='red'>The TIGP on Social Networks and Human-Centered Computing cuts into social networks and human-centered computing mainly from the viewpoint of computer science and engineering, and is supplemented by social and behavioral science, to provide students in the program with interdisciplinary training.</font></p>
                 <p>This program is completely taught in English. The courses include core courses, elective courses, seminar and project research. Program professors guide students to the newest research topics in the field of social network and human-centered computing to conduct high-quality, cutting-edge research.</p>
-                <p>This program adopts a team-teaching system, and students should decide their advisor and co-advisor within the first academic year after enrollment. The student should complete Advisor/Co-advisor Consent Form and return it to the SNHCC office. It shall be approved by the academic committee members.</p>
+                <p>This program adopts a <font color='red'>team-teaching system</font>, and students should decide their <font color='red'> advisor and co-advisor within the first academic year after enrollment</font>. The student should complete Advisor/Co-advisor Consent Form and return it to the SNHCC office. It shall be approved by the academic committee members.</p>
                 <p>The advisor/co-advisor for the thesis dissertation must be SNHCC faculty. A student must choose an advisor from Academic Sinica or the university he/she enrolls.</p>
                 <p>For example, if you enroll in NCCU, you may choose advisor from AS and a co-advisor from NCCU (or you may choose an advisor from NCCU and a co-advisor from AS). But a NCCU student can't choose NTHU teacher to be your advisor, but this NTHU teacher can be your one of your co-advisors.</p>
                 <p>If you want to change your advisor or co-advisor, you need to complete Petition for Change of Advisor. It shall be approved by the academic committee members.</p>
-                <p>he forms are available in the TIGP SNHCC office. The teachers who are eligible to take students will be announced at the end of each semester.</p>
+                <p>The forms are available in the TIGP SNHCC office. <font color='red'>The teachers who are eligible to take students will be announced at the end of each semester.</font></p>
                 <Divider horizontal>
                     <Header as='h1'>
                     Stipend Guideline
                     </Header>
                 </Divider>
-                <p>Stipend for the first year is guaranteed; the amount of the stipend for the second and third years will depend on student's performance. In the subsequent year, the financial support will be provided by the student's thesis advisor. The amount of the support will be at the discretion of the advisor. Violations of ethics, e.g. plagiarism, unauthorized absence from class, distasteful conduct are considered as "bad" performance and may result in reduced allowance.</p>
+                <p><font color='red'>Stipend for the first yearis guaranteed</font> ; the amount of the stipend for the second and third years will depend on student's performance. In the subsequent year, the financial support will be provided by the student's thesis advisor. The amount of the support will be at the discretion of the advisor. Violations of ethics, e.g. plagiarism, unauthorized absence from class, distasteful conduct are considered as "bad" performance and may result in reduced allowance.</p>
                 <List ordered size='huge'>
                     <List.Item>
                         <List.Content>
@@ -52,7 +52,7 @@ const Student = () => {
                             <List.Item>
                                 Mentor
                                 <List>
-                                    <List.Item>&nbsp;&nbsp;Each student is required to find one mentor within a month after the semester starts.The mentor will give the student guidance or advises as needed. The mentor may offer suggestions on how to find advisor, participate in a lab activity or project, access to a professional community, recommend resources, lectures or conferences, and others. The mentorship will last until the student has officially found the thesis advisor. (The mentor will not necessary be your advisor in the future.)</List.Item>
+                                    <List.Item>&nbsp;&nbsp;Each student is required to <font color='red'>find one mentor within a month after the semester starts.</font>The mentor will give the student guidance or advises as needed. The mentor may offer suggestions on how to find advisor, participate in a lab activity or project, access to a professional community, recommend resources, lectures or conferences, and others. The mentorship will last until the student has officially found the thesis advisor. (The mentor will not necessary be your advisor in the future.)</List.Item>
                                     <List.Item>&nbsp;&nbsp;The mentor can be from Academia Sinica or the partner university one is enrolled. Each mentor can take two students at most.</List.Item>
                                     <List.Item>&nbsp;&nbsp;A mentee will need to take initiative to arrange meetings with the mentor in a regular basis.</List.Item>
                                     <List.Item>&nbsp;&nbsp;Complete Mentor Consent Form a month after the semester starts.</List.Item>
@@ -71,7 +71,7 @@ const Student = () => {
                             </List.Item>
                             <List.Item>
                                 Review and Notification
-                                <div>The review will be held after the grade for each course is completed every semester. The result will be emailed to each student individually at the beginning of the following semester (for fall semester result), or by the end of July (for spring semester). If there is stipend deduction, it will start from March or September.</div>
+                                <div>The review will be held after the grade for each course is completed <font color='red'>every semester</font>. The result will be emailed to each student individually at the beginning of the following semester (for fall semester result), or by the end of July (for spring semester). If there is stipend deduction, it will start from March or September.</div>
                             </List.Item>
                         </List>
                     </List.Item>
@@ -80,7 +80,7 @@ const Student = () => {
                         Advisor
                         </List.Content>
                         <List>
-                            <List.Item>If a student cannot find thesis advisor by the end of third semester, the stipend will be terminated.</List.Item>
+                            <List.Item><font color='red'>If a student cannot find thesis advisor by the end of third semester, the stipend will be terminated.</font></List.Item>
                             <List.Item>For the fourth year students, the financial support will be provided by the thesis advisor and the amount will not be guaranteed to be the same as TIGP stipend.</List.Item>
                         </List>
                     </List.Item>

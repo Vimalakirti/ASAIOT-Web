@@ -37,7 +37,7 @@ const Admission = () => {
                 />
                 <Header as="h1">Admission Brochure</Header>
                 <p>
-                  [TODO] PDF link here 
+                  Info. about <a href="https://tigp.sinica.edu.tw/">TIGP program</a>
                 </p>
               </Grid.Column>
               <Grid.Column>
@@ -76,7 +76,7 @@ const Admission = () => {
             <List bulleted size='huge'>
               <List.Item>
                   <List.Content>
-                  Bachelor's or Master's degree in computer science or other related areas, or equivalent qualification based on the regulation of the Ministry of Education of Taiwan.
+                  Master's degree in computer science, electrical engineering, or other related areas, or equivalent qualification based on the regulation of the Ministry of Education of Taiwan.
                   </List.Content>
               </List.Item>
               <List.Item>
@@ -91,7 +91,12 @@ const Admission = () => {
             <List bulleted size='huge'>
               <List.Item>
                   <List.Content>
-                  Official transcripts in English from academic institutions attended after senior high school.
+                  Including an explanation of grading system.
+                  </List.Content>
+              </List.Item>
+              <List.Item>
+                  <List.Content>
+                  Please provide an explanation of the grading system. If the transcript is not in English, an English translation is required.​
                   </List.Content>
               </List.Item>
             </List>
@@ -153,32 +158,28 @@ const Admission = () => {
               </List.Item>
             </List>
             <Header as='h2'>
-              5. Programming skills
+              5. A Statement of purpose and CV
             </Header>
             <List bulleted size='huge'>
               <List.Item>
               <List.Content>
-              ​​Demonstrated by courses or projects completed.
+              that includes a research plan
               </List.Content>
               </List.Item>
             </List>
             <Header as='h2'>
-              6. A Statement of purpose and study plan
+              6. The Graduate Record Examination (GRE) scores (Optional)
             </Header>
-            <List bulleted size='huge'>
-              <List.Item>
-              <List.Content>
-              ​​Less than three pages
-              </List.Content>
-              </List.Item>
-            </List>
             <Header as='h2'>
-              7. The Graduate Record Examination (GRE) / Undergraduate or Master's thesis/ Research Publication
+              7. Passport and Taiwan Alien Resident Certificate(ARC) (if applicable)
+            </Header>
+            <Header as='h2'>
+              8. Passport-size Photograph
             </Header>
             <List bulleted size='huge'>
               <List.Item>
               <List.Content>
-              Alternatively, the applicants should provide us with supplementary information (e.g. undergraduate or Master's thesis, research publication, description of research experiences) that can demonstrate your potential in research.
+              In color and less than 6 months old, showing a close-up shot of the head and shoulders, and without wearing a hat.
               </List.Content>
               </List.Item>
             </List>
@@ -217,19 +218,7 @@ const Admission = () => {
           <Header as='h2'>
               3. Medical Insurance
           </Header>
-          <p>All international students can apply to enroll in the Taiwan’s National Health Insurance Program through the partner school after a continuous residence within Taiwan for 6 months.</p>
-          <List bulleted size='huge'>
-            <List.Item>
-            <List.Content>
-            ​​Fee NT$??? /per month
-            </List.Content>
-            </List.Item>
-            <List.Item>
-            <List.Content>
-            Payment is calculated separately from the tuition fee.
-            </List.Content>
-            </List.Item>
-          </List>
+          <p>Students will be required to join <a href="https://www.nhi.gov.tw/English/">NHI</a> after 6 months of continuous residence in Taiwan. The students pay the same premium as all the Taiwan citizens and will be entitled to the same medical coverage. In cases of illness, injury, and childbirth, the beneficiaries can receive medical services; including medication, outpatient and inpatient services from NHI contracted healthcare providers.</p>
           <Header as='h2'>
               4. Living and housing
           </Header>

@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-    Button,
+    List,
     Container,
     Card,
     Header,
@@ -28,61 +28,35 @@ const Faculty = () => {
             </Slider>
             <Container>
                 <Divider horizontal>
-                    <Header as='h1'>
-                    National Taiwan University
-                    </Header>
+                <Header as='h1'>
+                  National Taiwan University
+                </Header>
                 </Divider>
+                <List bulleted size='huge'>
+                    <List.Item as='a' href='https://web.ee.ntu.edu.tw/eng/teacher_index3.php'>
+                        Department of Electrical Engineering
+                    </List.Item>
+                </List>
+                <List bulleted size='huge'>
+                    <List.Item as='a' href='https://www.csie.ntu.edu.tw/members/teacher.php?mclass1=110'>
+                        Department of Computer Science & Information Engineering
+                    </List.Item>
+                </List>
                 <Divider horizontal>
-                    <Header as='h1'>
-                    Institute of Information Science, Academia Sinica
-                    </Header>
+                <Header as='h1'>
+                  Academia Sinica
+                </Header>
                 </Divider>
-                <Card.Group itemsPerRow={3}>
-                    <Card
-                        image='https://homepage.iis.sinica.edu.tw/pages/photo/dnyang.png'
-                        header='Dr. De-Nian Yang'
-                        meta='dnyang@iis.sinica.edu.tw'
-                        description='Research : Social networks and mobile data management, mobile multimedia networks and applications.'
-                        extra={<a href="https://homepage.iis.sinica.edu.tw/pages/dnyang/index_en.html">View profile</a>}
-                    />
-                    <Card
-                        image='https://homepage.iis.sinica.edu.tw/pages/photo/dnyang.png'
-                        header='Dr. De-Nian Yang'
-                        meta='dnyang@iis.sinica.edu.tw'
-                        description='Research : Social networks and mobile data management, mobile multimedia networks and applications.'
-                        extra={<a href="https://homepage.iis.sinica.edu.tw/pages/dnyang/index_en.html">View profile</a>}
-                    />
-                    <Card
-                        image='https://homepage.iis.sinica.edu.tw/pages/photo/dnyang.png'
-                        header='Dr. De-Nian Yang'
-                        meta='dnyang@iis.sinica.edu.tw'
-                        description='Research : Social networks and mobile data management, mobile multimedia networks and applications.'
-                        extra={<a href="https://homepage.iis.sinica.edu.tw/pages/dnyang/index_en.html">View profile</a>}
-                    />
-                    <Card
-                        image='https://homepage.iis.sinica.edu.tw/pages/photo/dnyang.png'
-                        header='Dr. De-Nian Yang'
-                        meta='dnyang@iis.sinica.edu.tw'
-                        description='Research : Social networks and mobile data management, mobile multimedia networks and applications.'
-                        extra={<a href="https://homepage.iis.sinica.edu.tw/pages/dnyang/index_en.html">View profile</a>}
-                    />
-                    <Card
-                        image='https://homepage.iis.sinica.edu.tw/pages/photo/dnyang.png'
-                        header='Dr. De-Nian Yang'
-                        meta='dnyang@iis.sinica.edu.tw'
-                        description='Research : Social networks and mobile data management, mobile multimedia networks and applications.'
-                        extra={<a href="https://homepage.iis.sinica.edu.tw/pages/dnyang/index_en.html">View profile</a>}
-                    />
-                    <Card
-                        image='https://homepage.iis.sinica.edu.tw/pages/photo/dnyang.png'
-                        header='Dr. De-Nian Yang'
-                        meta='dnyang@iis.sinica.edu.tw'
-                        description='Research : Social networks and mobile data management, mobile multimedia networks and applications.'
-                        extra={<a href="https://homepage.iis.sinica.edu.tw/pages/dnyang/index_en.html">View profile</a>}
-                    />
-                    
-                    
-                </Card.Group>
+                <List bulleted size='huge'>
+                    <List.Item as='a' href='https://www.iis.sinica.edu.tw/en/page/People/ResearchFellows.html'>
+                        Institute of Information Science
+                    </List.Item>
+                </List>
+                <List bulleted size='huge'>
+                    <List.Item as='a' href='https://www.citi.sinica.edu.tw/en/people/research-fellows'>
+                        Research Center for Information Technology Innovation
+                    </List.Item>
+                </List>
             </Container>
         </div>
     )

@@ -102,7 +102,7 @@ const Contact = () => {
                     128 Academia Rd., Section 2<br/>
                     Nankang, Taipei 115<br/>
                     Taiwan<br/>
-                    E-mail: <a href="mailto:tigp.aiot@gmail.com">tigp.aiot@gmail.com</a><br/>
+                    E-mail: <a href="mailto:tigpaiot@gate.sinica.edu.tw">tigpaiot@gate.sinica.edu.tw</a><br/>
                     Website: <a href="https://tigpaiot.iis.sinica.edu.tw">https://tigpaiot.iis.sinica.edu.tw</a>
                 </p>
             </Container>
