@@ -10,10 +10,8 @@ import {
 import "./App.css"
 
 import About from './Components/About'
-import Course from './Components/Course'
-import Student from './Components/Student'
 import Faculty from './Components/Faculty'
-import Academic from './Components/Academic'
+import AcademicTemp from './Components/AcademicTemp'
 import Admission from './Components/Admission'
 import Contact  from './Components/Contact'
 
@@ -26,8 +24,6 @@ const App = () => {
           <Menu borderless inverted fixed="top" size="huge">
             <Link className="ui header item" to="/"> TIGP AIoT Program</Link>
             <Link className="ui right item" to="/"> About </Link>
-            <Link className="ui item" to="/course"> Course </Link>
-            <Link className="ui item" to="/student"> Student </Link>
             <Link className="ui item" to="/faculty"> Faculty </Link>
             <Link className="ui item" to="/academic"> Academic </Link>
             <Link className="ui item" to="/admission"> Admission </Link>
@@ -36,10 +32,8 @@ const App = () => {
         </Container>
         <Switch>
                 <Route exact={true} path="/" component={About}/>
-                <Route path="/course" component={Course}/>
-                <Route path="/student" component={Student}/>
                 <Route path="/faculty" component={Faculty}/>
-                <Route path="/academic" component={Academic}/>
+                <Route path="/academic" component={AcademicTemp}/>
                 <Route path="/admission" component={Admission}/>
                 <Route path="/contact" component={Contact}/>
         </Switch>
