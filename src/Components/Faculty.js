@@ -2,9 +2,7 @@ import React from 'react'
 import {
     List,
     Container,
-    Card,
     Header,
-    Image,
     Segment,
     Divider,
 } from "semantic-ui-react"

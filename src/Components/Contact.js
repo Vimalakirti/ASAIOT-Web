@@ -1,11 +1,8 @@
 import React from 'react'
 import Slider from 'react-slick'
 import {
-    Button,
     Container,
-    Grid,
     Header,
-    Image,
     Segment,
     Divider,
     List

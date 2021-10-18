@@ -57,7 +57,7 @@ const About = () => {
               TIGP will focus on both theory and practice to provide students with a solid theoretical 
               basis and technical capability to solve practical problems of various applications.
               </p>
-              <Button primary size="huge" href="#course">
+              <Button primary size="huge" href="#academic">
                 Browser courses
               </Button>
             </Container>

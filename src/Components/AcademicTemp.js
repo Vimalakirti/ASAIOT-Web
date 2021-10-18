@@ -1,9 +1,8 @@
 import React from 'react'
 import Slider from 'react-slick'
 import {
-    Button,
+    Table,
     Container,
-    Grid,
     Header,
     List,
     Segment,
@@ -65,6 +64,109 @@ const AcademicTemp = () => {
                     Courses
                     </Header>
                 </Divider>
+                <p>The courses in TIGP AIoT program are graduate-level courses from NTU, NTUST and NTNU.</p>
+                <Table celled>
+                    <Table.Header>
+                        <Table.Row>
+                            <Table.HeaderCell>Curriculum Number</Table.HeaderCell>
+                            <Table.HeaderCell>Course Title</Table.HeaderCell>
+                            <Table.HeaderCell>Instructor</Table.HeaderCell>
+                            <Table.HeaderCell>University</Table.HeaderCell>
+                        </Table.Row>
+                    </Table.Header>
+                    <Table.Body>
+                        <Table.Row>
+                            <Table.Cell>CommE5052 </Table.Cell>
+                            <Table.Cell>Deep Learning for Computer Vision</Table.Cell>
+                            <Table.Cell>YU-CHIANG WANG</Table.Cell>
+                            <Table.Cell>NTU</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>CommE5022  </Table.Cell>
+                            <Table.Cell>Digital Communications</Table.Cell>
+                            <Table.Cell>HSUAN-JUNG SU</Table.Cell>
+                            <Table.Cell>NTU</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>CommE5051</Table.Cell>
+                            <Table.Cell>Mathematical Principles of Machine Learning </Table.Cell>
+                            <Table.Cell>I-HSIANG WANG</Table.Cell>
+                            <Table.Cell>NTU</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>EE5041</Table.Cell>
+                            <Table.Cell>Stochastic Processes and Applications  </Table.Cell>
+                            <Table.Cell>CHAR-DIR CHUNG</Table.Cell>
+                            <Table.Cell>NTU</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>EE5184</Table.Cell>
+                            <Table.Cell>Machine Learning</Table.Cell>
+                            <Table.Cell>HUNG-YI LEE</Table.Cell>
+                            <Table.Cell>NTU</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>CSIE5400</Table.Cell>
+                            <Table.Cell>Artificial Intelligence </Table.Cell>
+                            <Table.Cell>YUNG-JEN HSU</Table.Cell>
+                            <Table.Cell>NTU</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>CSIE5043</Table.Cell>
+                            <Table.Cell>Machine Learning</Table.Cell>
+                            <Table.Cell>HSUAN-TIEN LIN</Table.Cell>
+                            <Table.Cell>NTU</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>CSIE7435</Table.Cell>
+                            <Table.Cell>Topics in Machine Learning </Table.Cell>
+                            <Table.Cell>CHIH-JEN LIN</Table.Cell>
+                            <Table.Cell>NTU</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>MI5118701</Table.Cell>
+                            <Table.Cell>Artificial Intelligence Technologies and Business Applications </Table.Cell>
+                            <Table.Cell>Bor-Shen Lin</Table.Cell>
+                            <Table.Cell>NTUST</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>MI5413701</Table.Cell>
+                            <Table.Cell>Network Flow Models and Applications </Table.Cell>
+                            <Table.Cell>Cheng-Huang Hung</Table.Cell>
+                            <Table.Cell>NTUST</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>CS5148701</Table.Cell>
+                            <Table.Cell>Queueing Theory</Table.Cell>
+                            <Table.Cell>Binayak Kar</Table.Cell>
+                            <Table.Cell>NTUST</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>EE5332701</Table.Cell>
+                            <Table.Cell>Cloud and Fog Computing in the Internet of Things</Table.Cell>
+                            <Table.Cell>Shuhao Liang</Table.Cell>
+                            <Table.Cell>NTUST</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>EE5340701</Table.Cell>
+                            <Table.Cell>Industrial Internet of Things Programming and Practice</Table.Cell>
+                            <Table.Cell>MINH QUANG</Table.Cell>
+                            <Table.Cell>NTUST</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>EE6502701</Table.Cell>
+                            <Table.Cell>Introduction to Intelligent Control</Table.Cell>
+                            <Table.Cell>Shun-Feng Su</Table.Cell>
+                            <Table.Cell>NTUST</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>EE5912701</Table.Cell>
+                            <Table.Cell>Principle and Applications of Smart Antennas</Table.Cell>
+                            <Table.Cell>Hsin-Chin Liu</Table.Cell>
+                            <Table.Cell>NTUST</Table.Cell>
+                        </Table.Row>
+                    </Table.Body>
+                </Table>
             </Container>
         </div>
     )
