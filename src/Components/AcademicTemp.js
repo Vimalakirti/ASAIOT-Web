@@ -51,7 +51,7 @@ const AcademicTemp = () => {
                         </List.Content>
                     </List.Item>
                 </List>
-                <p>This program is completely taught in English. The courses include graduate-level courses, seminar and project research. Program professors guide students to the newest research topics in the field of Artificial Internet of Things to conduct high-quality, cutting-edge research.</p>
+                <p>This program is completely taught in English. The courses include graduate-level courses, seminar and project research. Program professors guide students to the newest research topics in the field of Artificial Intelligence of Things to conduct high-quality, cutting-edge research.</p>
                 <Divider horizontal>
                     <Header as='h1'>
                     Thesis Advisor
