@@ -9,7 +9,11 @@ import {
     Segment,
     Divider,
 } from "semantic-ui-react"
-import logo from '../images/square-image.png'
+import logo1 from '../images/healthcare.jpg'
+import logo2 from '../images/ml.jpg'
+import logo3 from '../images/data.jpg'
+import logo4 from '../images/blockchain.jpg'
+import logo5 from '../images/ngn.jpg'
 
 const About = () => {
     const slickSettings = {
@@ -98,14 +102,14 @@ const About = () => {
                 </p>
               </Grid.Column>
               <Grid.Column width={6}>
-                <Image src={logo} />
+                <Image src={logo1} />
               </Grid.Column>
             </Grid>
           </Segment>
           <Segment vertical>
             <Grid stackable>
               <Grid.Column width={6}>
-                <Image src={logo} />
+                <Image src={logo2} />
               </Grid.Column>
               <Grid.Column width={10}>
                 <Header as="h1">
@@ -128,14 +132,14 @@ const About = () => {
                 </p>
               </Grid.Column>
               <Grid.Column width={6}>
-                <Image src={logo} />
+                <Image src={logo3} />
               </Grid.Column>
             </Grid>
           </Segment>
           <Segment vertical>
             <Grid stackable>
               <Grid.Column width={6}>
-                <Image src={logo} />
+                <Image src={logo4} />
               </Grid.Column>
               <Grid.Column width={10}>
                 <Header as="h1">
@@ -159,7 +163,7 @@ const About = () => {
                 </p>
               </Grid.Column>
               <Grid.Column width={6}>
-                <Image src={logo} />
+                <Image src={logo5} />
               </Grid.Column>
             </Grid>
           </Segment>

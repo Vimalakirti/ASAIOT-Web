@@ -11,7 +11,9 @@ import {
     Table,
     Button
 } from "semantic-ui-react"
-import logo from '../images/square-image.png'
+import logo1 from '../images/1.png'
+import logo2 from '../images/2.png'
+import logo3 from '../images/3.png'
 
 const Admission = () => {
     return (
@@ -31,9 +33,8 @@ const Admission = () => {
               <Grid.Column>
                 <Image
                   centered
-                  circular
                   size="small"
-                  src={logo}
+                  src={logo1}
                 />
                 <Header as="h1">Admission Brochure</Header>
                 <p>
@@ -43,9 +44,8 @@ const Admission = () => {
               <Grid.Column>
                 <Image
                   centered
-                  circular
                   size="small"
-                  src={logo}
+                  src={logo2}
                 />
                 <Header as="h1">Application Deadline</Header>
                 <p>Early Decision: December 31<br/>Regular Deadline: February 1</p>
@@ -53,9 +53,8 @@ const Admission = () => {
               <Grid.Column>
                 <Image
                   centered
-                  circular
                   size="small"
-                  src={logo}
+                  src={logo3}
                 />
                 <Header as="h1">Apply Now</Header>
                 <p>
