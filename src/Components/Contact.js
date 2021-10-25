@@ -24,6 +24,38 @@ const Contact = () => {
             <Container>
                 <Divider horizontal>
                     <Header as='h1'>
+                        Contact Us
+                    </Header>
+                </Divider>
+                <Header as='h2'>
+                    For general enquiries of TIGP and application, please contact:
+                </Header>
+                <p>
+                    TIGP Administrative Office<br/>
+                    Taiwan International Graduate Program<br/>
+                    128 Academia Rd., Section 2<br/>
+                    Nankang, Taipei 115<br/>
+                    Taiwan<br/>
+                    E-mail: <a href="mailto:tigp@gate.sinica.edu.tw">tigp@gate.sinica.edu.tw</a><br/>
+                    Tel: 886-2-2789-8050<br/>
+                    Fax: 886-2-2785-8944<br/>
+                    Website: <a href="http://tigp.sinica.edu.tw">http://tigp.sinica.edu.tw</a>
+                </p>
+                <Header as='h2'>
+                    For specific information concerning the AIoT program, please contact:
+                </Header>
+                <p>
+                    Coordinator: Dr. De-Nian Yang<br/>
+                    Program Assistant: Mr. Jheng-Kun Lin<br/>
+                    Institute of Information Science, Academia Sinica<br/>
+                    128 Academia Rd., Section 2<br/>
+                    Nankang, Taipei 115<br/>
+                    Taiwan<br/>
+                    E-mail: <a href="mailto:tigpaiot@gate.sinica.edu.tw">tigpaiot@gate.sinica.edu.tw</a><br/>
+                    Website: <a href="https://tigpaiot.iis.sinica.edu.tw">https://tigpaiot.iis.sinica.edu.tw</a>
+                </p>
+                <Divider horizontal>
+                    <Header as='h1'>
                         Transportation Information
                     </Header>
                 </Divider>
@@ -70,38 +102,6 @@ const Contact = () => {
                         </List.Content>
                     </List.Item>
                 </List>
-                <Divider horizontal>
-                    <Header as='h1'>
-                        Contact Us
-                    </Header>
-                </Divider>
-                <Header as='h2'>
-                    For general enquiries of TIGP and application, please contact:
-                </Header>
-                <p>
-                    TIGP Administrative Office<br/>
-                    Taiwan International Graduate Program<br/>
-                    128 Academia Rd., Section 2<br/>
-                    Nankang, Taipei 115<br/>
-                    Taiwan<br/>
-                    E-mail: <a href="mailto:tigp@gate.sinica.edu.tw">tigp@gate.sinica.edu.tw</a><br/>
-                    Tel: 886-2-2789-8050<br/>
-                    Fax: 886-2-2785-8944<br/>
-                    Website: <a href="http://tigp.sinica.edu.tw">http://tigp.sinica.edu.tw</a>
-                </p>
-                <Header as='h2'>
-                    For specific information concerning the AIoT program, please contact:
-                </Header>
-                <p>
-                    Coordinator: Dr. De-Nian Yang<br/>
-                    Program Assistant: Mr. Jheng-Kun Lin<br/>
-                    Institute of Information Science, Academia Sinica<br/>
-                    128 Academia Rd., Section 2<br/>
-                    Nankang, Taipei 115<br/>
-                    Taiwan<br/>
-                    E-mail: <a href="mailto:tigpaiot@gate.sinica.edu.tw">tigpaiot@gate.sinica.edu.tw</a><br/>
-                    Website: <a href="https://tigpaiot.iis.sinica.edu.tw">https://tigpaiot.iis.sinica.edu.tw</a>
-                </p>
             </Container>
         </div>
     )

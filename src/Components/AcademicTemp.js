@@ -57,113 +57,121 @@ const AcademicTemp = () => {
                     Thesis Advisor
                     </Header>
                 </Divider>
-                <p>Students in this program should decide their advisor and co-advisor within the first academic year after enrollment. The student should complete Advisor/Co-advisor Consent Form and return it to the AIoT office. It shall be approved by the academic committee members.</p>
-                <p>The advisor/co-advisor for the thesis dissertation must be AIoT faculty. A student must choose an advisor from Academic Sinica or the university he/she enrolls.</p>
+                <p>Students in this program should decide their advisor and co-advisor within the first academic year after enrollment. The student should complete Advisor/Co-advisor Consent Form and return it to the AIoT office. It shall be approved by the academic committee members. The advisor/co-advisor for the thesis dissertation must be AIoT faculty. Note that a student must choose two advisors, one from Academic Sinica and one from NTU.</p>
+                
+                <Divider horizontal>
+            <Header as='h1'>
+              Costs and Funding
+            </Header>
+          </Divider>
+          <Header as='h2'>
+              1. Tuition fee
+          </Header>
+          <List bulleted size='huge'>
+            <List.Item>
+            <List.Content>
+            The tuition fee is about US$1,500 per year. (Due upon registration)
+            </List.Content>
+            </List.Item>
+          </List>
+          <Header as='h2'>
+              2. Fellowship and Stipends
+          </Header>
+          <List bulleted size='huge'>
+            <List.Item>
+            <List.Content>
+            Once admitted, each TIGP student will receive a monthly stipend of NT$34,000 (around USD1,140) for the first year. Additionally, the support will be extended to two more years for students who perform well academically. In subsequent years (from the 4th year), the thesis advisor will be responsible for the financial support. The Academic Committee will decide to reduce the student’s stipend level if his or her performance is less than satisfactory.
+            </List.Content>
+            </List.Item>
+            <List.Item>
+            <List.Content>
+            The students are required to find their own financial support prior to arriving in Taiwan. The fellowship will be given in the second month (October) after school starts.
+            </List.Content>
+            </List.Item>
+          </List>
+          <Header as='h2'>
+              3. Medical Insurance
+          </Header>
+          <p>Students will be required to join <a href="https://www.nhi.gov.tw/English/">NHI</a> after 6 months of continuous residence in Taiwan. The students pay the same premium as all the Taiwan citizens and will be entitled to the same medical coverage. In cases of illness, injury, and childbirth, the beneficiaries can receive medical services; including medication, outpatient and inpatient services from NHI contracted healthcare providers.</p>
+          <Header as='h2'>
+              4. Living and housing
+          </Header>
+          <List bulleted size='huge'>
+            <List.Item>
+            <List.Content>
+            On-campus: details please visit our website at <a href='http://tigp.sinica.edu.tw/Accommodation.html'>http://tigp.sinica.edu.tw/Accommodation.html</a>
+            </List.Content>
+            </List.Item>
+            <List.Item>
+            <List.Content>
+            Off-campus : rents for off-campus apartments range from NT$ 5,000 - 20,000 per month
+            </List.Content>
+            </List.Item>
+          </List>
+
                 <Divider horizontal>
                     <Header as='h1'>
                     Courses
                     </Header>
                 </Divider>
-                <p>The courses in TIGP AIoT program are graduate-level courses from NTU, NTUST and NTNU.</p>
-                <Table celled>
+                <p>The courses in TIGP AIoT program are graduate-level courses from <a href="https://nol.ntu.edu.tw/nol/guest/index.php">NTU</a>, <a href="https://querycourse.ntust.edu.tw/querycourse/#/">NTUST</a> and <a href="https://courseap2.itc.ntnu.edu.tw/acadmOpenCourse/index.jsp">NTNU</a>. These courses cover a wide range of areas in AIoT such as Artificial Intelligence, Wireless Communication and Embedded System. Some areas and courses are listed as examples in the table below.</p>
+                <Table celled structured>
                     <Table.Header>
                         <Table.Row>
-                            <Table.HeaderCell>Curriculum Number</Table.HeaderCell>
+                            <Table.HeaderCell>Area</Table.HeaderCell>
                             <Table.HeaderCell>Course Title</Table.HeaderCell>
-                            <Table.HeaderCell>Instructor</Table.HeaderCell>
-                            <Table.HeaderCell>University</Table.HeaderCell>
                         </Table.Row>
                     </Table.Header>
                     <Table.Body>
                         <Table.Row>
-                            <Table.Cell>CommE5052 </Table.Cell>
+                            <Table.Cell rowSpan='5'>Artificial Intelligence</Table.Cell>
                             <Table.Cell>Deep Learning for Computer Vision</Table.Cell>
-                            <Table.Cell>YU-CHIANG WANG</Table.Cell>
-                            <Table.Cell>NTU</Table.Cell>
                         </Table.Row>
                         <Table.Row>
-                            <Table.Cell>CommE5022  </Table.Cell>
+                            <Table.Cell>Mathematical Principles of Machine Learning</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>Machine Learning</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>Artificial Intelligence</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>Artificial Intelligence Technologies and Business Applications</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell rowSpan='3'>Communication Theory</Table.Cell>
                             <Table.Cell>Digital Communications</Table.Cell>
-                            <Table.Cell>HSUAN-JUNG SU</Table.Cell>
-                            <Table.Cell>NTU</Table.Cell>
                         </Table.Row>
                         <Table.Row>
-                            <Table.Cell>CommE5051</Table.Cell>
-                            <Table.Cell>Mathematical Principles of Machine Learning </Table.Cell>
-                            <Table.Cell>I-HSIANG WANG</Table.Cell>
-                            <Table.Cell>NTU</Table.Cell>
+                            <Table.Cell>Stochastic Processes and Applications</Table.Cell>
                         </Table.Row>
                         <Table.Row>
-                            <Table.Cell>EE5041</Table.Cell>
-                            <Table.Cell>Stochastic Processes and Applications  </Table.Cell>
-                            <Table.Cell>CHAR-DIR CHUNG</Table.Cell>
-                            <Table.Cell>NTU</Table.Cell>
-                        </Table.Row>
-                        <Table.Row>
-                            <Table.Cell>EE5184</Table.Cell>
-                            <Table.Cell>Machine Learning</Table.Cell>
-                            <Table.Cell>HUNG-YI LEE</Table.Cell>
-                            <Table.Cell>NTU</Table.Cell>
-                        </Table.Row>
-                        <Table.Row>
-                            <Table.Cell>CSIE5400</Table.Cell>
-                            <Table.Cell>Artificial Intelligence </Table.Cell>
-                            <Table.Cell>YUNG-JEN HSU</Table.Cell>
-                            <Table.Cell>NTU</Table.Cell>
-                        </Table.Row>
-                        <Table.Row>
-                            <Table.Cell>CSIE5043</Table.Cell>
-                            <Table.Cell>Machine Learning</Table.Cell>
-                            <Table.Cell>HSUAN-TIEN LIN</Table.Cell>
-                            <Table.Cell>NTU</Table.Cell>
-                        </Table.Row>
-                        <Table.Row>
-                            <Table.Cell>CSIE7435</Table.Cell>
-                            <Table.Cell>Topics in Machine Learning </Table.Cell>
-                            <Table.Cell>CHIH-JEN LIN</Table.Cell>
-                            <Table.Cell>NTU</Table.Cell>
-                        </Table.Row>
-                        <Table.Row>
-                            <Table.Cell>MI5118701</Table.Cell>
-                            <Table.Cell>Artificial Intelligence Technologies and Business Applications </Table.Cell>
-                            <Table.Cell>Bor-Shen Lin</Table.Cell>
-                            <Table.Cell>NTUST</Table.Cell>
-                        </Table.Row>
-                        <Table.Row>
-                            <Table.Cell>MI5413701</Table.Cell>
-                            <Table.Cell>Network Flow Models and Applications </Table.Cell>
-                            <Table.Cell>Cheng-Huang Hung</Table.Cell>
-                            <Table.Cell>NTUST</Table.Cell>
-                        </Table.Row>
-                        <Table.Row>
-                            <Table.Cell>CS5148701</Table.Cell>
                             <Table.Cell>Queueing Theory</Table.Cell>
-                            <Table.Cell>Binayak Kar</Table.Cell>
-                            <Table.Cell>NTUST</Table.Cell>
                         </Table.Row>
                         <Table.Row>
-                            <Table.Cell>EE5332701</Table.Cell>
+                            <Table.Cell rowSpan='3'>Embedded System</Table.Cell>
                             <Table.Cell>Cloud and Fog Computing in the Internet of Things</Table.Cell>
-                            <Table.Cell>Shuhao Liang</Table.Cell>
-                            <Table.Cell>NTUST</Table.Cell>
                         </Table.Row>
                         <Table.Row>
-                            <Table.Cell>EE5340701</Table.Cell>
                             <Table.Cell>Industrial Internet of Things Programming and Practice</Table.Cell>
-                            <Table.Cell>MINH QUANG</Table.Cell>
-                            <Table.Cell>NTUST</Table.Cell>
                         </Table.Row>
                         <Table.Row>
-                            <Table.Cell>EE6502701</Table.Cell>
-                            <Table.Cell>Introduction to Intelligent Control</Table.Cell>
-                            <Table.Cell>Shun-Feng Su</Table.Cell>
-                            <Table.Cell>NTUST</Table.Cell>
+                            <Table.Cell>Embedded OS Implementation</Table.Cell>
                         </Table.Row>
                         <Table.Row>
-                            <Table.Cell>EE5912701</Table.Cell>
+                            <Table.Cell>Computer Network</Table.Cell>
+                            <Table.Cell>Network Flow Models and Applications</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell rowSpan='3'>Wireless Communication</Table.Cell>
                             <Table.Cell>Principle and Applications of Smart Antennas</Table.Cell>
-                            <Table.Cell>Hsin-Chin Liu</Table.Cell>
-                            <Table.Cell>NTUST</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>Wireless Communication</Table.Cell>
+                        </Table.Row>
+                        <Table.Row>
+                            <Table.Cell>Special Topics on Antenna </Table.Cell>
                         </Table.Row>
                     </Table.Body>
                 </Table>

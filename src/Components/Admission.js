@@ -48,7 +48,7 @@ const Admission = () => {
                   src={logo2}
                 />
                 <Header as="h1">Application Deadline</Header>
-                <p>Early Decision: December 31<br/>Regular Deadline: February 1</p>
+                <p>Regular Deadline: January 27</p>
               </Grid.Column>
               <Grid.Column>
                 <Image
@@ -182,57 +182,6 @@ const Admission = () => {
               </List.Content>
               </List.Item>
             </List>
-            
-
-          <Divider horizontal>
-            <Header as='h1'>
-              Costs and Funding
-            </Header>
-          </Divider>
-          <Header as='h2'>
-              1. Tuition fee
-          </Header>
-          <List bulleted size='huge'>
-            <List.Item>
-            <List.Content>
-            The tuition fee is about US$1,500 per year. (Due upon registration)
-            </List.Content>
-            </List.Item>
-          </List>
-          <Header as='h2'>
-              2. Fellowship and Stipends
-          </Header>
-          <List bulleted size='huge'>
-            <List.Item>
-            <List.Content>
-            Once admitted, each TIGP student will receive a monthly stipend of NT$34,000 (around USD1,140) for the first year. Additionally, the support will be extended to two more years for students who perform well academically. In subsequent years (from the 4th year), the thesis advisor will be responsible for the financial support. The Academic Committee will decide to reduce the student’s stipend level if his or her performance is less than satisfactory.
-            </List.Content>
-            </List.Item>
-            <List.Item>
-            <List.Content>
-            The students are required to find their own financial support prior to arriving in Taiwan. The fellowship will be given in the second month (October) after school starts.
-            </List.Content>
-            </List.Item>
-          </List>
-          <Header as='h2'>
-              3. Medical Insurance
-          </Header>
-          <p>Students will be required to join <a href="https://www.nhi.gov.tw/English/">NHI</a> after 6 months of continuous residence in Taiwan. The students pay the same premium as all the Taiwan citizens and will be entitled to the same medical coverage. In cases of illness, injury, and childbirth, the beneficiaries can receive medical services; including medication, outpatient and inpatient services from NHI contracted healthcare providers.</p>
-          <Header as='h2'>
-              4. Living and housing
-          </Header>
-          <List bulleted size='huge'>
-            <List.Item>
-            <List.Content>
-            On-campus: details please visit our website at <a href='http://tigp.sinica.edu.tw/Accommodation.html'>http://tigp.sinica.edu.tw/Accommodation.html</a>
-            </List.Content>
-            </List.Item>
-            <List.Item>
-            <List.Content>
-            Off-campus : rents for off-campus apartments range from NT$ 5,000 - 20,000 per month
-            </List.Content>
-            </List.Item>
-          </List>
 
           <Divider horizontal>
             <Header as='h1'>
