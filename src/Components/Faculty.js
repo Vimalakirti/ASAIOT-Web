@@ -36,7 +36,7 @@ const Faculty = () => {
                     </List.Item>
                 </List>
                 <List bulleted size='huge'>
-                    <List.Item as='a' href='https://www.csie.ntu.edu.tw/members/teacher.php?mclass1=110'>
+                    <List.Item as='a' href='https://www.csie.ntu.edu.tw/members/teacher.php?lang=en'>
                         Department of Computer Science & Information Engineering
                     </List.Item>
                 </List>

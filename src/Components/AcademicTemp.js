@@ -51,7 +51,7 @@ const AcademicTemp = () => {
                         </List.Content>
                     </List.Item>
                 </List>
-                <p>This program is completely taught in English. The courses include graduate-level courses, seminar and project research. Program professors guide students to the newest research topics in the field of Artificial Intelligence of Things to conduct high-quality, cutting-edge research.</p>
+                <p>The courses include graduate-level courses, seminar and project research. Program professors guide students to the latest research topics in the field of Artificial Intelligence of Things to conduct high-quality, cutting-edge research.</p>
                 <Divider horizontal>
                     <Header as='h1'>
                     Thesis Advisor
@@ -114,7 +114,7 @@ const AcademicTemp = () => {
                     Courses
                     </Header>
                 </Divider>
-                <p>The courses in TIGP AIoT program are graduate-level courses from <a href="https://nol.ntu.edu.tw/nol/guest/index.php">NTU</a>, <a href="https://querycourse.ntust.edu.tw/querycourse/#/">NTUST</a> and <a href="https://courseap2.itc.ntnu.edu.tw/acadmOpenCourse/index.jsp">NTNU</a>. These courses cover a wide range of areas in AIoT such as Artificial Intelligence, Wireless Communication and Embedded System. Some areas and courses are listed as examples in the table below.</p>
+                <p>The courses in TIGP AIoT program are graduate-level courses from <a href="https://nol.ntu.edu.tw/nol/coursesearch/index.php?lang=EN">NTU</a>, <a href="https://querycourse.ntust.edu.tw/querycourse/#/">NTUST</a> and <a href="https://courseap2.itc.ntnu.edu.tw/acadmOpenCourse/index.jsp">NTNU</a>. These courses cover a wide range of areas in AIoT such as Artificial Intelligence, Wireless Communication and Embedded System. Some areas and courses are listed as examples in the table below.</p>
                 <Table celled structured>
                     <Table.Header>
                         <Table.Row>
