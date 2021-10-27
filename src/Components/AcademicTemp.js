@@ -67,28 +67,11 @@ const AcademicTemp = () => {
           <Header as='h2'>
               1. Tuition fee
           </Header>
-          <List bulleted size='huge'>
-            <List.Item>
-            <List.Content>
-            The tuition fee is about US$1,500 per year. (Due upon registration)
-            </List.Content>
-            </List.Item>
-          </List>
+          <p>The tuition fee is about US$1,500 per year. (Due upon registration)</p>
           <Header as='h2'>
-              2. Fellowship and Stipends
+              2. Fellowship and Stipend
           </Header>
-          <List bulleted size='huge'>
-            <List.Item>
-            <List.Content>
-            Once admitted, each TIGP student will receive a monthly stipend of NT$34,000 (around USD1,140) for the first year. Additionally, the support will be extended to two more years for students who perform well academically. In subsequent years (from the 4th year), the thesis advisor will be responsible for the financial support. The Academic Committee will decide to reduce the student’s stipend level if his or her performance is less than satisfactory.
-            </List.Content>
-            </List.Item>
-            <List.Item>
-            <List.Content>
-            The students are required to find their own financial support prior to arriving in Taiwan. The fellowship will be given in the second month (October) after school starts.
-            </List.Content>
-            </List.Item>
-          </List>
+          <p>Once admitted, each TIGP student will receive a monthly stipend of NT$34,000 (around USD1,140) for the first year. Additionally, the support will be extended to two more years for students who perform well academically. In subsequent years, i.e., from the third year, the thesis advisor will be responsible for the financial support. The Academic Committee will decide to reduce the student’s stipend level if his or her performance is less than satisfactory.</p>            
           <Header as='h2'>
               3. Medical Insurance
           </Header>

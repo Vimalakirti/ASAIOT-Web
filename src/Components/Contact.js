@@ -52,6 +52,7 @@ const Contact = () => {
                     Nankang, Taipei 115<br/>
                     Taiwan<br/>
                     E-mail: <a href="mailto:tigpaiot@gate.sinica.edu.tw">tigpaiot@gate.sinica.edu.tw</a><br/>
+                    Tel: 886-2-2788-3799 ext. 2303 <br/>
                     Website: <a href="https://tigpaiot.iis.sinica.edu.tw">https://tigpaiot.iis.sinica.edu.tw</a>
                 </p>
                 <Divider horizontal>
