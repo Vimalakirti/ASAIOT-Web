@@ -75,7 +75,7 @@ const AcademicTemp = () => {
           <Header as='h2'>
               3. Medical Insurance
           </Header>
-          <p>Students will be required to join <a href="https://www.nhi.gov.tw/English/">NHI</a> after 6 months of continuous residence in Taiwan. The students pay the same premium as all the Taiwan citizens and will be entitled to the same medical coverage. In cases of illness, injury, and childbirth, the beneficiaries can receive medical services; including medication, outpatient and inpatient services from NHI contracted healthcare providers.</p>
+          <p>Students will be required to join <a href="https://www.nhi.gov.tw/English/">NHI</a> after 6 months of continuous residence in Taiwan. The students pay the same premium as all Taiwanese citizens and will be entitled to the same medical coverage. In cases of illness, injury, and childbirth, the beneficiaries can receive medical services; including medication, outpatient and inpatient services from NHI contracted healthcare providers.</p>
           <Header as='h2'>
               4. Living and housing
           </Header>
