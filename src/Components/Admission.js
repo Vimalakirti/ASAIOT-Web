@@ -182,6 +182,26 @@ const Admission = () => {
               </List.Content>
               </List.Item>
             </List>
+            <Header as='h2'>
+              9. Additional notes
+            </Header>
+            <List bulleted size='huge'>
+              <List.Item>
+              <List.Content>
+              After reviewing all the supporting documents mentioned above, candidates passing the first screening might be invited for an interview. Local candidates will be asked to come to Academia Sinica for interviews. For international students, interviews via skype will be conducted.
+              </List.Content>
+              </List.Item>
+              <List.Item>
+              <List.Content>
+              Before logging into the system, please assemble all of the required information and material. If you have any questions about the application process, please get in touch with the assistant to Artificial Intelligence of Things (AIoT) before the application deadline, Jan. 27, 2022.
+              </List.Content>
+              </List.Item>
+              <List.Item>
+              <List.Content>
+              The admission notice (including conditional admission) will be sent in early May. For those who receive conditional admission, the students will need to submit the documents (such as an official master's degree diploma or GRE) by July 31.
+              </List.Content>
+              </List.Item>
+            </List>
 
           <Divider horizontal>
             <Header as='h1'>

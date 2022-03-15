@@ -8,6 +8,8 @@ import {
     Segment,
     Divider,
 } from "semantic-ui-react"
+import file1 from "../files/Regulation_Stipend.pdf"
+import file2 from "../files/Stipend_Guideline.pdf"
 
 const AcademicTemp = () => {
     return (
@@ -71,7 +73,8 @@ const AcademicTemp = () => {
           <Header as='h2'>
               2. Fellowship and Stipend
           </Header>
-          <p>Once admitted, each TIGP student will receive a monthly stipend of NT$34,000 (around USD1,140) for the first year. Additionally, the support will be extended to two more years for students who perform well academically. In subsequent years, i.e., from the third year, the thesis advisor will be responsible for the financial support. The Academic Committee will decide to reduce the student’s stipend level if his or her performance is less than satisfactory.</p>            
+          <p>Once admitted, each TIGP student will receive a monthly stipend of NT$34,000 (around USD1,140) for the first year. Additionally, the support will be extended to two more years for students who perform well academically. In subsequent years, i.e., from the 4th year, the thesis advisor will be responsible for the financial support. The stipend during TIGP studies is merit-based. The Student Affairs Committee reserves the right to reduce the student’s stipend level if his or her academic performance is less than satisfactory.</p>
+          <p><a href={file1} download>Regulation for the stipend</a> / <a href={file2} download>Evaluation Details</a></p>
           <Header as='h2'>
               3. Medical Insurance
           </Header>
@@ -82,7 +85,7 @@ const AcademicTemp = () => {
           <List bulleted size='huge'>
             <List.Item>
             <List.Content>
-            On-campus: details please visit our website at <a href='http://tigp.sinica.edu.tw/Accommodation.html'>http://tigp.sinica.edu.tw/Accommodation.html</a>
+            On-campus: details please visit our website at <a href='https://tigp.sinica.edu.tw/posts/155356'>https://tigp.sinica.edu.tw/posts/155356</a>
             </List.Content>
             </List.Item>
             <List.Item>
