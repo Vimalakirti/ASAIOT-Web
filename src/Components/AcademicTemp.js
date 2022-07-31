@@ -8,21 +8,12 @@ import {
     Segment,
     Divider,
 } from "semantic-ui-react"
-import file1 from "../files/Regulation_Stipend.pdf"
-import file2 from "../files/Stipend_Guideline.pdf"
 
 const AcademicTemp = () => {
     return (
         <div>
             <Slider className="slide">
-                <Segment inverted vertical id="academic_segment">
-                
-                    <Container text className="active">
-                    <Header inverted as="h1">
-                        Academic
-                    </Header>
-                    </Container>
-                </Segment>
+                <Segment inverted vertical id="academic_segment"/>
             </Slider>
             <Container>
                 <Divider horizontal>
@@ -54,46 +45,6 @@ const AcademicTemp = () => {
                     </List.Item>
                 </List>
                 <p>The courses include graduate-level courses, seminar and project research. Program professors guide students to the latest research topics in the field of Artificial Intelligence of Things to conduct high-quality, cutting-edge research.</p>
-                <Divider horizontal>
-                    <Header as='h1'>
-                    Thesis Advisor
-                    </Header>
-                </Divider>
-                <p>Students in this program should decide their advisor and co-advisor within the first academic year after enrollment. The student should complete Advisor/Co-advisor Consent Form and return it to the AIoT office. It shall be approved by the academic committee members. The advisor/co-advisor for the thesis dissertation must be AIoT faculty. Note that a student must choose two advisors, one from Academic Sinica and one from NTU.</p>
-                
-                <Divider horizontal>
-            <Header as='h1'>
-              Costs and Funding
-            </Header>
-          </Divider>
-          <Header as='h2'>
-              1. Tuition fee
-          </Header>
-          <p>The tuition fee is about US$1,500 per year. (Due upon registration)</p>
-          <Header as='h2'>
-              2. Fellowship and Stipend
-          </Header>
-          <p>Once admitted, each TIGP student will receive a monthly stipend of NT$34,000 (around USD1,140) for the first year. Additionally, the support will be extended to two more years for students who perform well academically. In subsequent years, i.e., from the 4th year, the thesis advisor will be responsible for the financial support. The stipend during TIGP studies is merit-based. The Student Affairs Committee reserves the right to reduce the student’s stipend level if his or her academic performance is less than satisfactory.</p>
-          <p><a href={file1} download>Regulation for the stipend</a> / <a href={file2} download>Evaluation Details</a></p>
-          <Header as='h2'>
-              3. Medical Insurance
-          </Header>
-          <p>Students will be required to join <a href="https://www.nhi.gov.tw/English/">NHI</a> after 6 months of continuous residence in Taiwan. The students pay the same premium as all Taiwanese citizens and will be entitled to the same medical coverage. In cases of illness, injury, and childbirth, the beneficiaries can receive medical services; including medication, outpatient and inpatient services from NHI contracted healthcare providers.</p>
-          <Header as='h2'>
-              4. Living and housing
-          </Header>
-          <List bulleted size='huge'>
-            <List.Item>
-            <List.Content>
-            On-campus: details please visit our website at <a href='https://tigp.sinica.edu.tw/posts/155356'>https://tigp.sinica.edu.tw/posts/155356</a>
-            </List.Content>
-            </List.Item>
-            <List.Item>
-            <List.Content>
-            Off-campus : rents for off-campus apartments range from NT$ 5,000 - 20,000 per month
-            </List.Content>
-            </List.Item>
-          </List>
 
                 <Divider horizontal>
                     <Header as='h1'>

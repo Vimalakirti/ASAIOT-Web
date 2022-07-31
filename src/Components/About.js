@@ -1,7 +1,6 @@
 import React from 'react'
 import Slider from 'react-slick'
 import {
-    Button,
     Container,
     Grid,
     Header,
@@ -9,72 +8,28 @@ import {
     Segment,
     Divider,
 } from "semantic-ui-react"
-import logo1 from '../images/healthcare.jpg'
-import logo2 from '../images/ml.jpg'
-import logo3 from '../images/data.jpg'
-import logo4 from '../images/blockchain.jpg'
-import logo5 from '../images/ngn.jpg'
+import ntu_as_logo from '../images/ntu_as_logo.png'
+
+import logo1 from '../images/About/1.png'
+import logo2 from '../images/About/2.png'
+import logo3 from '../images/About/3.png'
+import logo4 from '../images/About/4.png'
+import logo5 from '../images/About/5.png'
 
 const About = () => {
-    const slickSettings = {
-        lazyLoad: true,
-        autoplay: true,
-        dots: true,
-        speed: 1000
-    }
     return (
         <div>
-        <Slider {...slickSettings} className="slide">
-          <Segment inverted vertical textAlign="center" id="home_segment1">
-            
-            <Container text className="active">
-              <Header inverted as="h1">
-                TIGP AIoT Program
-              </Header>
-              <p>
-              The TIGP AIoT program can cultivate Taiwanese and international talents in related areas to the program, strengthen innovative potential, and enhance the level of academic research.
-              </p>
-              <Button primary size="huge" href="#admission">
-                Apply now
-              </Button>
-            </Container>
-          </Segment>
-          <Segment inverted vertical textAlign="center" id="home_segment2">
-            <Container text className="active">
-              <Header inverted as="h1">
-                Strong teaching and research
-              </Header>
-              <p>
-              NTU and Academia Sinica will co-play leading and supervisory roles, and provide research resources and equipment. Additionally, the participating scholars of these institutions will be jointly responsible for teaching activities, supervising research, and guiding international graduate students.
-              </p>
-              <Button primary size="huge" href="#faculty">
-                Learn more
-              </Button>
-            </Container>
-          </Segment>
-          <Segment inverted vertical textAlign="center" id="home_segment3">
-            <Container text className="active">
-              <Header inverted as="h1">
-                Solid curriculum design
-              </Header>
-              <p>
-              TIGP will focus on both theory and practice to provide students with a solid theoretical 
-              basis and technical capability to solve practical problems of various applications.
-              </p>
-              <Button primary size="huge" href="#academic">
-                Browse courses
-              </Button>
-            </Container>
-          </Segment>
+        <Slider className="slide">
+            <Segment inverted vertical id="home_segment"/>
         </Slider>
+        
         <Container>
-          
-
           <Divider horizontal>
             <Header as='h1' id='learn_more'>
               Overview
             </Header>
           </Divider>
+        
           <p>Artificial Intelligence of Things (AIoT) is an emerging technology that combines artificial intelligence (AI) and Internet of Things (IoT). It is one of the most promising scientific and technological trends today. In recent years, with breakthroughs in computer storage space and computing performance, coupled with big data analysis, inference, and learning, AI has become the focus and is widely adopted in many fields, such as finance, manufacturing, retail, and medical industries. According to IDC's Worldwide Artificial Intelligence Spending Guide report, the total global AI spending will increase more than twice in the next four years, from $50.1 billion in 2020 to more than $110 billion in 2024. According to PWC’s report, by 2030, the global AI technology output value will increase to 6.6 trillion U.S. dollars, and AI applications will generate 9.1 trillion U.S. dollars, which will bring 14% growth to global GDP. The potential for business opportunities is promising. On the other hand, IoT upgrades communications from the traditional "human-to-human" and "human-to-machine" communication and interactions to the intelligent "machine-to-machine", which connects various digital devices to the Internet and transmits all kinds of information sensed to each other. Through machine learning and data mining technologies, we can further discover valuable knowledge and ubiquitously provide various services in people's lives. According to the research of McKinsey Management Consultants, the global application output value of IoT will reach 11.1 trillion U.S. dollars in 2025. IDC also assesses that the data volume of IoT devices from 2018 to 2025 will grow at an average annual growth rate of 28.7% and reach 79.4ZB in 2025. For the applications of AIoT, Frost & Sullivan, a world-renowned business consulting firm, estimates that the global output value of smart cities will reach a market size of 2 trillion U.S. dollars by 2025. </p>
           <p>In recent years, Taiwan has gradually matured in IC chip development, wireless transmission, and data storage technologies. Therefore, industries, government administration, and academia have begun to attach importance to the value of integrating AIoT with interdisciplinary fields. The development of AIoT technology not only has high research value in academics but also plays a pivotal role in the progress of various fields in Taiwan, such as technology industries, government efficiency, biomedical science and technology, health management, transportation construction, agricultural technology, as well as cultural and creative industries, and the upgrading of international competitiveness. Therefore, there is an urgent need for AIoT talents and technologies. </p>
           <Divider horizontal>
@@ -82,6 +37,9 @@ const About = () => {
             The TIGP Program on AIoT
             </Header>
           </Divider>
+          
+          <div id="menu_space"/>
+          
           <p>The TIGP on Artificial Intelligence of Things (AIoT) is a program established jointly by National Taiwan University (NTU) and Academia Sinica. Artificial Intelligence of Things is a new important application and technology that have been rapidly developing in recent years. The TIGP AIoT program can cultivate Taiwanese and international talents in related areas to the program, strengthen innovative potential, and enhance the level of academic research. NTU and Academia Sinica will co-play leading and supervisory roles, and provide research resources and equipment. Additionally, the participating scholars of these institutions will be jointly responsible for teaching activities, supervising research, and guiding international graduate students.</p>
           <p>This TIGP program hopes to attract outstanding young domestic and international students. In the scope of AIoT, this program gives priority to computer science and engineering and takes mathematics as a subsidiary to provide students with training across multiple fields. The curriculum contents will probe into various fields, including networking and communications, signal processing, embedded IoT systems, cloud computing, mobile edge computing, big data systems, machine learning, data mining, multivariate data analysis, business models, privacy and security, and multimedia that emphasized areas and combinations in computer science, electrical engineering, and communication.</p>
           <p>In TIGP on Artificial Intelligence of Things, the cooperating university and institutes will provide the required laboratory equipment and instruments for teaching and research. With the equipment and varied expertise of the researchers from the cooperating institutions, this program can provide young students with an excellent educational opportunity to cultivate their research capabilities in interdisciplinary areas. This specific TIGP will focus on both theory and practice to provide students with a solid theoretical basis and technical capability to solve practical problems of various applications.</p>
@@ -167,6 +125,17 @@ const About = () => {
               </Grid.Column>
             </Grid>
           </Segment>
+
+          <Divider horizontal>
+            <Header as='h1' id='learn_more'>
+              Logos of Academia Sinica and NTU
+            </Header>
+          </Divider>
+          <Container textAlign='center'>
+          <Image.Group size='massive'>
+            <Image  src={ntu_as_logo}/>
+          </Image.Group>
+          </Container>
         </Container>
         </div>
     )

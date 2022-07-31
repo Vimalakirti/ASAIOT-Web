@@ -12,14 +12,7 @@ const Contact = () => {
     return (
         <div>
             <Slider className="slide">
-                <Segment inverted vertical id="contact_segment">
-                
-                    <Container text className="active">
-                    <Header inverted as="h1">
-                        Contact
-                    </Header>
-                    </Container>
-                </Segment>
+                <Segment inverted vertical id="contact_segment"/>
             </Slider>
             <Container>
                 <Divider horizontal>
@@ -52,7 +45,7 @@ const Contact = () => {
                     Nankang, Taipei 115<br/>
                     Taiwan<br/>
                     E-mail: <a href="mailto:tigpaiot@gate.sinica.edu.tw">tigpaiot@gate.sinica.edu.tw</a><br/>
-                    Tel: 886-2-2788-3799 ext. 2303 <br/>
+                    Tel: 886-2-2788-3799 ext. 2362 <br/>
                     Website: <a href="https://tigpaiot.iis.sinica.edu.tw">https://tigpaiot.iis.sinica.edu.tw</a>
                 </p>
                 <Divider horizontal>

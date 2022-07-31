@@ -11,9 +11,16 @@ import "./App.css"
 
 import About from './Components/About'
 import Faculty from './Components/Faculty'
-import AcademicTemp from './Components/AcademicTemp'
+import Academic from './Components/Academic'
 import Admission from './Components/Admission'
 import Contact  from './Components/Contact'
+import Student from './Components/Student'
+import Form from './Components/Form'
+
+const totop = () =>{
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0; 
+}
 
 const App = () => {
   
@@ -22,27 +29,32 @@ const App = () => {
         <HashRouter>
         <Container>
           <Menu borderless inverted fixed="top" size="huge">
-            <Link className="ui header item" to="/"> TIGP AIoT Program</Link>
-            <Link className="ui right item" to="/"> About </Link>
-            <Link className="ui item" to="/faculty"> Faculty </Link>
-            <Link className="ui item" to="/academic"> Academic </Link>
-            <Link className="ui item" to="/admission"> Admission </Link>
-            <Link className="ui item" to="/contact"> Contact </Link>
+            <Link className="ui header item" to="/" onClick={totop}> TIGP AIoT Program</Link>
+            <Link className="ui right item" to="/" onClick={totop}> About </Link>
+            <Link className="ui item" to="/faculty" onClick={totop}> Faculty </Link>
+            <Link className="ui item" to="/academic" onClick={totop}> Academic </Link>
+            <Link className="ui item" to="/admission" onClick={totop}> Admission </Link>
+            <Link className="ui item" to="/student" onClick={totop}>Student</Link>
+            <Link className="ui item" to="/form_link" onClick={totop}>Form and Link</Link>
+            <Link className="ui item" to="/contact" onClick={totop}> Contact </Link>
           </Menu>
         </Container>
+        <div id="menu_space"/>
         <Switch>
                 <Route exact={true} path="/" component={About}/>
                 <Route path="/faculty" component={Faculty}/>
-                <Route path="/academic" component={AcademicTemp}/>
+                <Route path="/academic" component={Academic}/>
                 <Route path="/admission" component={Admission}/>
+                <Route path="/student" component={Student}/>
+                <Route path="/form_link" component={Form}/>
                 <Route path="/contact" component={Contact}/>
         </Switch>
         <Container>
         <Segment vertical>
             <Grid columns={2}>
               <Grid.Column>
-                &copy; 2021 TIGP AIoT · All rights reserved ·{" "}
-                Powered by <a href="https://react.semantic-ui.com/">Semantic UI</a> and <a href="https://unsplash.com/">Unsplash</a>
+                &copy; 2022 TIGP AIoT · All rights reserved ·{" "}
+                Powered by <a href="https://react.semantic-ui.com/">Semantic UI</a>
               </Grid.Column>
               <Grid.Column textAlign="right">
                 <a href="/">Back to Homepage</a>

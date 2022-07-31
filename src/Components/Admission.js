@@ -8,8 +8,7 @@ import {
     Image,
     Segment,
     Divider,
-    Table,
-    Button
+    Table
 } from "semantic-ui-react"
 import logo1 from '../images/1.png'
 import logo2 from '../images/2.png'
@@ -19,14 +18,7 @@ const Admission = () => {
     return (
         <div>
             <Slider className="slide">
-                <Segment inverted vertical id="admission_segment">
-                    
-                    <Container text className="active">
-                    <Header inverted as="h1">
-                        Admission
-                    </Header>
-                    </Container>
-                </Segment>
+                <Segment inverted vertical id="admission_segment"/>
             </Slider>
             <Segment vertical>
             <Grid container stackable textAlign="center" columns={3}>
@@ -66,7 +58,14 @@ const Admission = () => {
           <Container>
           <Divider horizontal>
             <Header as='h1'>
-              Admission requirements
+              General Introduction
+            </Header>
+          </Divider>
+          <p>The <a href="https://tigp.apps.sinica.edu.tw/index.php">online application</a> starts from November 1st to February 1st every year. Results of admissions are usually announced in late June / early July; admitted applicants may be enrolled in the following fall semester.</p>
+
+          <Divider horizontal>
+            <Header as='h1'>
+              Requirements
             </Header>
           </Divider>
             <Header as='h2'>
@@ -157,7 +156,7 @@ const Admission = () => {
               </List.Item>
             </List>
             <Header as='h2'>
-              5. A Statement of purpose and CV
+              5. A Statement of purpose
             </Header>
             <List bulleted size='huge'>
               <List.Item>
@@ -167,13 +166,16 @@ const Admission = () => {
               </List.Item>
             </List>
             <Header as='h2'>
-              6. The Graduate Record Examination (GRE) scores (Optional)
+              6. Curriculum Vitae
             </Header>
             <Header as='h2'>
-              7. Passport and Taiwan Alien Resident Certificate(ARC) (if applicable)
+              7. The Graduate Record Examination (GRE) scores (Optional)
             </Header>
             <Header as='h2'>
-              8. Passport-size Photograph
+              8. Passport and Taiwan Alien Resident Certificate(ARC) (if applicable)
+            </Header>
+            <Header as='h2'>
+              9. Passport-size Photograph
             </Header>
             <List bulleted size='huge'>
               <List.Item>
@@ -183,7 +185,7 @@ const Admission = () => {
               </List.Item>
             </List>
             <Header as='h2'>
-              9. Additional notes
+              Additional notes
             </Header>
             <List bulleted size='huge'>
               <List.Item>
@@ -193,7 +195,7 @@ const Admission = () => {
               </List.Item>
               <List.Item>
               <List.Content>
-              Before logging into the system, please assemble all of the required information and material. If you have any questions about the application process, please get in touch with the assistant to Artificial Intelligence of Things (AIoT) before the application deadline, Jan. 27, 2022.
+              Before logging into the system, please assemble all of the required information and material. If you have any questions about the application process, please get in touch with the assistant to Artificial Intelligence of Things (AIoT) before the application deadline, or check out the FAQ section <a href="https://tigp.apps.sinica.edu.tw/faqs">here</a>.
               </List.Content>
               </List.Item>
               <List.Item>
@@ -203,14 +205,77 @@ const Admission = () => {
               </List.Item>
             </List>
 
-          <Divider horizontal>
+            <Divider horizontal>
             <Header as='h1'>
-              Apply on-line
+              Costs and Funding
             </Header>
           </Divider>
-          <Container textAlign='center'>
-          <Button size='massive' positive href='https://tigp.apps.sinica.edu.tw/index.php'>Click me to apply now!</Button>
-          </Container>
+          <Header as='h2'>
+              Fellowship and Stipend
+          </Header>
+          <p>Once admitted, each TIGP student will receive a monthly stipend of NT$34,000 (around USD1,140) for the first year. Additionally, the support will be extended to two more years for students who perform well academically. In subsequent years, i.e., from the 4th year, the thesis advisor will be responsible for the financial support. The stipend during TIGP studies is merit-based. The Student Affairs Committee reserves the right to reduce the student’s stipend level if his or her academic performance is less than satisfactory.</p>
+          <p><a href='https://drive.google.com/file/d/1OuxBgMrllgFCAYXwVe3mNiECnz8F8esE/view?usp=sharing'>Regulation for the stipend</a> / <a href='https://drive.google.com/file/d/1u51SMEhe_f3TRWwzFeBslJHeYQTh-ETg/view?usp=sharing'>Evaluation Details</a></p>
+
+          <Header as='h2'>
+              Costs
+          </Header>
+          <List size='huge'>
+              <List.Item>
+              <List.Header>1. Tuition Fees</List.Header>
+              <List.Content>
+              <p>TIGP office subsidizes tuition fees for international students for 5 consecutive years, during which you only need to pay the same amount as the local students do. (If a student applies for suspension anytime during those 5 years, the subsidy cannot be delayed for later use.) For local students, the tuition fee of NTU is NTD 30,360 per semester during the first two years (one academic year has two semesters). Starting from the third to the fifth year, it will be NTD 14,690 per semester. For international students, the tuition fee will double without the subsidy.</p>
+              </List.Content>
+              </List.Item>
+              <List.Item>
+              <List.Header>2. Medical Insurance</List.Header>
+              <List.Content>
+              <p>Students will be required to join <a href="https://www.nhi.gov.tw/English/">NHI</a> after 6 months of continuous residence in Taiwan. The students pay the same premium as all Taiwanese citizens and will be entitled to the same medical coverage. In cases of illness, injury, and childbirth, the beneficiaries can receive medical services; including medication, outpatient and inpatient services from NHI contracted healthcare providers.</p>
+              </List.Content>
+              </List.Item>
+              <List.Item>
+              <List.Header>3. Living and Housing Cost</List.Header>
+              <List.Content>
+                <p>TIGP provides the first-year student with the on-campus dormitory which costs NTD 5,500 per month (See more at https://tigp.sinica.edu.tw/posts/155356). The rents for off-campus housing ranges from NTD 7,000 to NTD15,000 per month. Living expenses vary depending on your needs, generally, it is about NTD 6,000 to NTD 10,000.</p>
+              </List.Content>
+              </List.Item>
+            </List>
+          <Header as='h3'>
+          Here’s a summary of the costs: 
+          </Header>
+          <Table celled structured>
+            <Table.Header>
+            <Table.Row>
+              <Table.HeaderCell colSpan='2'>Item</Table.HeaderCell>
+              <Table.HeaderCell >Fee</Table.HeaderCell>
+            </Table.Row>
+            </Table.Header>
+            <Table.Body>
+              <Table.Row>
+            <Table.Cell rowSpan='2' colSpan='2'>Tuition Fees</Table.Cell>
+            <Table.Cell>NTD 30,360 / semester (1st~4th semester)</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+            <Table.Cell >NTD 14,690 / semester (5th~10th semester)</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+            <Table.Cell colSpan='2'>Medical Insurance</Table.Cell>
+            <Table.Cell>NTD 4,956 / semester</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+            <Table.Cell colSpan='2'>Living Expense</Table.Cell>
+            <Table.Cell>NTD 6,000 - 8,000 / month</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+            <Table.Cell rowSpan='2'>Housing</Table.Cell>
+            <Table.Cell>TIGP Student Dorm</Table.Cell>
+            <Table.Cell>NTD 5,000 / month</Table.Cell>
+            </Table.Row>
+            <Table.Row>
+            <Table.Cell>Off-Campus</Table.Cell>
+            <Table.Cell>NTD 7,000 to 15,000 / month</Table.Cell>
+            </Table.Row>
+            </Table.Body>
+          </Table>
           </Container>
         </div>
     )
