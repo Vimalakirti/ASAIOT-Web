@@ -12,7 +12,9 @@ const Academic = () => {
     return (
         <div>
             <Slider className="slide">
-                <Segment inverted vertical id="academic_segment"/>
+                <div id="academic_background">
+                    <Segment inverted vertical id="academic_segment"/>
+                </div>
             </Slider>
             <Container>
                 <Divider horizontal>
