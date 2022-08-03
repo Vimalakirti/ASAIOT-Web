@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ASAIOT-Web/static/css/main.bd4f2ded.chunk.css",
-    "main.js": "/ASAIOT-Web/static/js/main.7c70ea1d.chunk.js",
-    "main.js.map": "/ASAIOT-Web/static/js/main.7c70ea1d.chunk.js.map",
+    "main.css": "/ASAIOT-Web/static/css/main.426d8538.chunk.css",
+    "main.js": "/ASAIOT-Web/static/js/main.73dd48d0.chunk.js",
+    "main.js.map": "/ASAIOT-Web/static/js/main.73dd48d0.chunk.js.map",
     "runtime-main.js": "/ASAIOT-Web/static/js/runtime-main.e9a964f2.js",
     "runtime-main.js.map": "/ASAIOT-Web/static/js/runtime-main.e9a964f2.js.map",
     "static/css/2.44d21683.chunk.css": "/ASAIOT-Web/static/css/2.44d21683.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.5e4b3b28.chunk.js.map": "/ASAIOT-Web/static/js/3.5e4b3b28.chunk.js.map",
     "index.html": "/ASAIOT-Web/index.html",
     "static/css/2.44d21683.chunk.css.map": "/ASAIOT-Web/static/css/2.44d21683.chunk.css.map",
-    "static/css/main.bd4f2ded.chunk.css.map": "/ASAIOT-Web/static/css/main.bd4f2ded.chunk.css.map",
+    "static/css/main.426d8538.chunk.css.map": "/ASAIOT-Web/static/css/main.426d8538.chunk.css.map",
     "static/js/2.5f99c3d6.chunk.js.LICENSE.txt": "/ASAIOT-Web/static/js/2.5f99c3d6.chunk.js.LICENSE.txt",
     "static/media/1.1bc44ab8.png": "/ASAIOT-Web/static/media/1.1bc44ab8.png",
     "static/media/1.9dfe9746.png": "/ASAIOT-Web/static/media/1.9dfe9746.png",
@@ -22,13 +22,11 @@
     "static/media/2.a8287b6c.png": "/ASAIOT-Web/static/media/2.a8287b6c.png",
     "static/media/2.abcd58c4.png": "/ASAIOT-Web/static/media/2.abcd58c4.png",
     "static/media/2.cdae4097.png": "/ASAIOT-Web/static/media/2.cdae4097.png",
-    "static/media/3.0d10b897.png": "/ASAIOT-Web/static/media/3.0d10b897.png",
     "static/media/3.0e8ab118.png": "/ASAIOT-Web/static/media/3.0e8ab118.png",
     "static/media/3.118cd4dc.png": "/ASAIOT-Web/static/media/3.118cd4dc.png",
     "static/media/3.5adf691b.png": "/ASAIOT-Web/static/media/3.5adf691b.png",
     "static/media/4.85af65c2.png": "/ASAIOT-Web/static/media/4.85af65c2.png",
     "static/media/5.c4db6d9f.png": "/ASAIOT-Web/static/media/5.c4db6d9f.png",
-    "static/media/Bg.54b14189.png": "/ASAIOT-Web/static/media/Bg.54b14189.png",
     "static/media/App.css": "/ASAIOT-Web/static/media/student.838d1ee1.png",
     "static/media/semantic.min.css": "/ASAIOT-Web/static/media/outline-icons.ddae9b1b.woff",
     "static/media/ntu_as_logo.dd1771d0.png": "/ASAIOT-Web/static/media/ntu_as_logo.dd1771d0.png",
@@ -53,7 +51,7 @@
     "static/js/runtime-main.e9a964f2.js",
     "static/css/2.44d21683.chunk.css",
     "static/js/2.5f99c3d6.chunk.js",
-    "static/css/main.bd4f2ded.chunk.css",
-    "static/js/main.7c70ea1d.chunk.js"
+    "static/css/main.426d8538.chunk.css",
+    "static/js/main.73dd48d0.chunk.js"
   ]
 }
