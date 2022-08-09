@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ASAIOT-Web/static/css/main.a94e1780.chunk.css",
-    "main.js": "/ASAIOT-Web/static/js/main.be23c232.chunk.js",
-    "main.js.map": "/ASAIOT-Web/static/js/main.be23c232.chunk.js.map",
+    "main.css": "/ASAIOT-Web/static/css/main.42161668.chunk.css",
+    "main.js": "/ASAIOT-Web/static/js/main.987e95dd.chunk.js",
+    "main.js.map": "/ASAIOT-Web/static/js/main.987e95dd.chunk.js.map",
     "runtime-main.js": "/ASAIOT-Web/static/js/runtime-main.e9a964f2.js",
     "runtime-main.js.map": "/ASAIOT-Web/static/js/runtime-main.e9a964f2.js.map",
     "static/css/2.44d21683.chunk.css": "/ASAIOT-Web/static/css/2.44d21683.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.5e4b3b28.chunk.js.map": "/ASAIOT-Web/static/js/3.5e4b3b28.chunk.js.map",
     "index.html": "/ASAIOT-Web/index.html",
     "static/css/2.44d21683.chunk.css.map": "/ASAIOT-Web/static/css/2.44d21683.chunk.css.map",
-    "static/css/main.a94e1780.chunk.css.map": "/ASAIOT-Web/static/css/main.a94e1780.chunk.css.map",
+    "static/css/main.42161668.chunk.css.map": "/ASAIOT-Web/static/css/main.42161668.chunk.css.map",
     "static/js/2.5f99c3d6.chunk.js.LICENSE.txt": "/ASAIOT-Web/static/js/2.5f99c3d6.chunk.js.LICENSE.txt",
     "static/media/1.1bc44ab8.png": "/ASAIOT-Web/static/media/1.1bc44ab8.png",
     "static/media/1.9dfe9746.png": "/ASAIOT-Web/static/media/1.9dfe9746.png",
@@ -28,6 +28,7 @@
     "static/media/4.85af65c2.png": "/ASAIOT-Web/static/media/4.85af65c2.png",
     "static/media/5.c4db6d9f.png": "/ASAIOT-Web/static/media/5.c4db6d9f.png",
     "static/media/App.css": "/ASAIOT-Web/static/media/student_bg.842acf8d.png",
+    "static/media/back_to_top.8dc8941a.png": "/ASAIOT-Web/static/media/back_to_top.8dc8941a.png",
     "static/media/semantic.min.css": "/ASAIOT-Web/static/media/outline-icons.ddae9b1b.woff",
     "static/media/ntu_as_logo.dd1771d0.png": "/ASAIOT-Web/static/media/ntu_as_logo.dd1771d0.png",
     "static/media/phone.0f0fcf2b.png": "/ASAIOT-Web/static/media/phone.0f0fcf2b.png",
@@ -55,7 +56,7 @@
     "static/js/runtime-main.e9a964f2.js",
     "static/css/2.44d21683.chunk.css",
     "static/js/2.5f99c3d6.chunk.js",
-    "static/css/main.a94e1780.chunk.css",
-    "static/js/main.be23c232.chunk.js"
+    "static/css/main.42161668.chunk.css",
+    "static/js/main.987e95dd.chunk.js"
   ]
 }
