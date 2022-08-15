@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ASAIOT-Web/static/css/main.c68663b4.chunk.css",
-    "main.js": "/ASAIOT-Web/static/js/main.8f4dcffb.chunk.js",
-    "main.js.map": "/ASAIOT-Web/static/js/main.8f4dcffb.chunk.js.map",
+    "main.js": "/ASAIOT-Web/static/js/main.a21151b6.chunk.js",
+    "main.js.map": "/ASAIOT-Web/static/js/main.a21151b6.chunk.js.map",
     "runtime-main.js": "/ASAIOT-Web/static/js/runtime-main.e9a964f2.js",
     "runtime-main.js.map": "/ASAIOT-Web/static/js/runtime-main.e9a964f2.js.map",
     "static/css/2.44d21683.chunk.css": "/ASAIOT-Web/static/css/2.44d21683.chunk.css",
@@ -15,17 +15,17 @@
     "static/css/main.c68663b4.chunk.css.map": "/ASAIOT-Web/static/css/main.c68663b4.chunk.css.map",
     "static/js/2.5f99c3d6.chunk.js.LICENSE.txt": "/ASAIOT-Web/static/js/2.5f99c3d6.chunk.js.LICENSE.txt",
     "static/media/1.1bc44ab8.png": "/ASAIOT-Web/static/media/1.1bc44ab8.png",
+    "static/media/1.4ad619fe.png": "/ASAIOT-Web/static/media/1.4ad619fe.png",
     "static/media/1.9dfe9746.png": "/ASAIOT-Web/static/media/1.9dfe9746.png",
     "static/media/1.a6db1ade.png": "/ASAIOT-Web/static/media/1.a6db1ade.png",
-    "static/media/1.e7ec4e17.png": "/ASAIOT-Web/static/media/1.e7ec4e17.png",
     "static/media/2.5f8319b5.png": "/ASAIOT-Web/static/media/2.5f8319b5.png",
-    "static/media/2.a8287b6c.png": "/ASAIOT-Web/static/media/2.a8287b6c.png",
     "static/media/2.abcd58c4.png": "/ASAIOT-Web/static/media/2.abcd58c4.png",
     "static/media/2.cdae4097.png": "/ASAIOT-Web/static/media/2.cdae4097.png",
+    "static/media/2.de55b2b6.png": "/ASAIOT-Web/static/media/2.de55b2b6.png",
     "static/media/3.0e8ab118.png": "/ASAIOT-Web/static/media/3.0e8ab118.png",
     "static/media/3.118cd4dc.png": "/ASAIOT-Web/static/media/3.118cd4dc.png",
+    "static/media/3.2626927d.png": "/ASAIOT-Web/static/media/3.2626927d.png",
     "static/media/3.5adf691b.png": "/ASAIOT-Web/static/media/3.5adf691b.png",
-    "static/media/3.5f927964.png": "/ASAIOT-Web/static/media/3.5f927964.png",
     "static/media/4.85af65c2.png": "/ASAIOT-Web/static/media/4.85af65c2.png",
     "static/media/5.c4db6d9f.png": "/ASAIOT-Web/static/media/5.c4db6d9f.png",
     "static/media/App.css": "/ASAIOT-Web/static/media/student_bg.842acf8d.png",
@@ -33,7 +33,7 @@
     "static/media/back_to_top.0855de81.png": "/ASAIOT-Web/static/media/back_to_top.0855de81.png",
     "static/media/semantic.min.css": "/ASAIOT-Web/static/media/outline-icons.ddae9b1b.woff",
     "static/media/map_as.5d538cc4.png": "/ASAIOT-Web/static/media/map_as.5d538cc4.png",
-    "static/media/map_ntu.098e4d9a.png": "/ASAIOT-Web/static/media/map_ntu.098e4d9a.png",
+    "static/media/map_ntu.2a0c7dfe.png": "/ASAIOT-Web/static/media/map_ntu.2a0c7dfe.png",
     "static/media/ntu_as_logo.dd1771d0.png": "/ASAIOT-Web/static/media/ntu_as_logo.dd1771d0.png",
     "static/media/phone.46160c7e.png": "/ASAIOT-Web/static/media/phone.46160c7e.png",
     "static/media/transportation.d0723f27.png": "/ASAIOT-Web/static/media/transportation.d0723f27.png",
@@ -61,6 +61,6 @@
     "static/css/2.44d21683.chunk.css",
     "static/js/2.5f99c3d6.chunk.js",
     "static/css/main.c68663b4.chunk.css",
-    "static/js/main.8f4dcffb.chunk.js"
+    "static/js/main.a21151b6.chunk.js"
   ]
 }
