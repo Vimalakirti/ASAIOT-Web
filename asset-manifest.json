@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ASAIOT-Web/static/css/main.c68663b4.chunk.css",
-    "main.js": "/ASAIOT-Web/static/js/main.88f19291.chunk.js",
-    "main.js.map": "/ASAIOT-Web/static/js/main.88f19291.chunk.js.map",
+    "main.js": "/ASAIOT-Web/static/js/main.a28e2138.chunk.js",
+    "main.js.map": "/ASAIOT-Web/static/js/main.a28e2138.chunk.js.map",
     "runtime-main.js": "/ASAIOT-Web/static/js/runtime-main.e9a964f2.js",
     "runtime-main.js.map": "/ASAIOT-Web/static/js/runtime-main.e9a964f2.js.map",
     "static/css/2.44d21683.chunk.css": "/ASAIOT-Web/static/css/2.44d21683.chunk.css",
@@ -62,6 +62,6 @@
     "static/css/2.44d21683.chunk.css",
     "static/js/2.5f99c3d6.chunk.js",
     "static/css/main.c68663b4.chunk.css",
-    "static/js/main.88f19291.chunk.js"
+    "static/js/main.a28e2138.chunk.js"
   ]
 }
