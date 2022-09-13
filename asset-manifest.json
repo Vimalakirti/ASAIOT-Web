@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ASAIOT-Web/static/css/main.59ccb7be.chunk.css",
-    "main.js": "/ASAIOT-Web/static/js/main.f2505d0d.chunk.js",
-    "main.js.map": "/ASAIOT-Web/static/js/main.f2505d0d.chunk.js.map",
+    "main.js": "/ASAIOT-Web/static/js/main.1195f456.chunk.js",
+    "main.js.map": "/ASAIOT-Web/static/js/main.1195f456.chunk.js.map",
     "runtime-main.js": "/ASAIOT-Web/static/js/runtime-main.e9a964f2.js",
     "runtime-main.js.map": "/ASAIOT-Web/static/js/runtime-main.e9a964f2.js.map",
     "static/css/2.44d21683.chunk.css": "/ASAIOT-Web/static/css/2.44d21683.chunk.css",
@@ -44,6 +44,7 @@
     "static/media/林仁俊.990d0754.jpg": "/ASAIOT-Web/static/media/林仁俊.990d0754.jpg",
     "static/media/林澤.3b51533f.jpg": "/ASAIOT-Web/static/media/林澤.3b51533f.jpg",
     "static/media/楊得年.7ba92532.jpg": "/ASAIOT-Web/static/media/楊得年.7ba92532.jpg",
+    "static/media/洪鼎詠.ce73158d.jpg": "/ASAIOT-Web/static/media/洪鼎詠.ce73158d.jpg",
     "static/media/王建堯.6eaad642.jpg": "/ASAIOT-Web/static/media/王建堯.6eaad642.jpg",
     "static/media/王志宇.a0e5a92a.jpg": "/ASAIOT-Web/static/media/王志宇.a0e5a92a.jpg",
     "static/media/蔡孟宗.39877997.jpg": "/ASAIOT-Web/static/media/蔡孟宗.39877997.jpg",
@@ -62,6 +63,6 @@
     "static/css/2.44d21683.chunk.css",
     "static/js/2.5f99c3d6.chunk.js",
     "static/css/main.59ccb7be.chunk.css",
-    "static/js/main.f2505d0d.chunk.js"
+    "static/js/main.1195f456.chunk.js"
   ]
 }
